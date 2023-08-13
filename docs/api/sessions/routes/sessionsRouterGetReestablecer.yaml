@@ -1,0 +1,18 @@
+ paths:
+  /api/sessions/reestablecer:
+    get:
+      summary:  Ruta metodo "get" para reestablecer la contraseña del usuario. Accesible solo para usuarios logeados.
+      tags:
+        - Sesiones
+      responses:
+        "200":
+          description: Contraseña reestablecida correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DatosUsuario' 
+        "404":
+          description: Usuario NOT-FOUND.
+        "500":
+          description: Error de servidor.
+     

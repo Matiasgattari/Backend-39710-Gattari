@@ -1,0 +1,50 @@
+<h1>{{encabezado}}</h1>
+
+<h3>Usuario logeado: </h3> <input id="usuario_email_input" type="text" value="{{usuario.email}}" disabled>
+<h3>Tipo de usuario: </h3> <input id="usuario_rol_input" type="text" value="{{usuario.rol}}" disabled>
+
+<h2>Formulario para eliminar producto</h2>
+
+<form action="">
+<label for="id producto a eliminar">Coloque el ID del producto a eliminar</label>
+<input type="text" id="eliminarIDAdmin">
+<button type="submit" id="botonEliminarAdmin">Eliminar</button>
+</form>
+
+<h2>Formulario para crear producto</h2>
+<form action="" id="formularioAdmin">
+<label for="titulo">Título</label>
+<input type="text" name="titulo" id="tituloAdmin">
+<label for="descripcion">Descripción</label>
+<input type="text" name="descripcion" id="descripcionAdmin">
+<label for="precio">Precio</label>
+<input type="number" name="precio" id="precioAdmin">
+<label for="urlIMG">Dirección de imagen</label>
+<input type="text" name="urlIMG" id="urlIMGAdmin">
+<label for="stock">Stock</label>
+<input type="number" name="stock" id="stockAdmin">
+<label for="codigo">Código</label>
+<input type="text" name="codigo" id="codigoAdmin">
+<label for="categoria">Categoria</label>
+<input type="text" name="categoria" id="categoriaAdmin">
+<label for="status">Status</label>
+<input type="text" name="status" id="statusAdmin">
+<button id="botonCargarAdmin" type="submit">Cargar</button>
+
+<br><br><br>
+
+<label for="productoVer">Producto ID:</label>
+<input type="text" name="status" id="inputProductoVer" placeholder="_id producto a ver">
+<button id="botonProductoVer" type="submit">Ver</button>
+</form>
+
+<h1>Lista de productos</h1>
+          <ul>
+            {{#each productos}}
+            <li>_id: {{this._id}},title: {{this.title}},description: {{this.description}},price: {{this.price}},thumbnail: {{this.thumbnail}},stock: {{this.stock}},code: {{this.code}},category: {{this.category}},status: {{this.status}},id: {{this.id}},owner: {{this.owner}}</li>
+            {{/each}}
+          </ul>
+
+
+
+<script src="/js/productosAdmin.js"></script>

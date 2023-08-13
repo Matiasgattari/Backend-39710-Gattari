@@ -1,0 +1,29 @@
+ paths:
+  /api/carts/{CID}/products/{PID}:
+    delete:
+      summary:  Ruta metodo "delete" para eliminar el carrito especificado por CID. Solo accesible para "Admin".
+      tags:
+        - Carritos
+      parameters: 
+        - name: CID
+          in: path
+          description: El identificador único del carrito a mostrar
+          example: 6488aff0596de2eac5b46f9f
+          required: true
+          schema:
+            type: string
+        - name: PID
+          in: path
+          description: El identificador único del producto a eliminar
+          example: 64a787d0cb79472dae12d83d
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Producto Eliminado correctamente.
+        "404":
+          description: Carrito/Producto NOT-FOUND.
+        "500":
+          description: Error de servidor.
+     

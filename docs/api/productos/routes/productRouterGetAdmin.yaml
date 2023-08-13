@@ -1,0 +1,11 @@
+paths:
+  /api/products/admin:
+    get:
+      summary: Muestra los productos enlistados, y los paneles para la carga y eliminacion de los mismos. Solo accesible para "Admin" y usuarios "Premium"
+      tags:
+        - Productos
+      responses:
+        "200":
+          description: Productos cargados correctamente.
+        "500":
+          description: Productos no encontrados.

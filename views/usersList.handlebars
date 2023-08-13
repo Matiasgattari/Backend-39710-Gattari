@@ -1,0 +1,31 @@
+<h1>{{encabezado}}</h1>
+
+
+{{#if hayUsuarios}}
+
+    <button onClick='redireccion()'>Ver usuarios ausentes</button><br><br>
+<form action="">
+    <label for="inputIdUModificar">Ingrese el nombre de usuario al cual quiera modificarse el rol.</label><br>
+    <input name="inputIdUModificar" type="email" placeholder="Nombre de usuario a modificar" id="inputIdUsuarioModificar" required>
+    <button type="submit" id="botonSubmitModificarRol">Modificar rol</button>
+</form>
+
+<h4>USUARIOS</h4>
+<ul>
+     {{#each arrayUsuarios}}
+     <li>Usuario: {{this.email}},ID:{{this._id}}, Nombre completo: {{this.nombre}} , Carrito ID: {{this.carrito}} , Rol: {{this.rol}}, Ultima conexion: {{this.ultima_conexion}}. </li>  {{/each}}
+</ul>
+{{else}}
+<p class="text-danger">Sin usuarios registrados</p>
+{{/if}}
+
+
+<script src="/js/usersList.js"></script>
+<script>
+    function redireccion () {
+        const url = window.location.origin
+        const url2 = url + `/api/users/bussy/` 
+        window.location.href = url2
+    }
+
+</script>

@@ -1,0 +1,33 @@
+<h1>HOLA, elige una opcion para continuar</h1>
+
+    <p>REGISTRARSE </p> 
+    
+    <button onclick="register()">ir</button>
+
+    <p>INICIAR SESION</p>
+    
+    <button onclick="login()">ir</button><br>
+    
+
+
+<script>
+ 
+  
+ function register() {
+     const urlOrigin = window.location.origin; //obtiene la URL actual
+     const urlOrigin2 = urlOrigin + `/api/sessions/register` //agrega el string al final
+     window.location = urlOrigin2
+    
+  }
+
+ function login() {
+
+    const urlOrigin = window.location.origin; //obtiene la URL actual
+    const urlOrigin2 = urlOrigin + `/api/sessions/login` //agrega el string al final
+    window.location = urlOrigin2
+  }
+
+</script>
+
+
+<script src="/js/indexProducts.js"></script>

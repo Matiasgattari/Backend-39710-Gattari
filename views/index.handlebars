@@ -1,0 +1,12 @@
+<h1>{{encabezado}} </h1>
+
+<h3>Bienvenido al servidor. ingrese a "/api/sessions/" para poder registrarse o iniciar sesion.</h3>
+<button onclick="sesiones()">Administrador de sesiones</button>
+
+<script> 
+function sesiones(){
+    const url = window.location.origin
+    const url2 = url + `/api/sessions/` 
+    window.location.href = url2
+}
+</script>

@@ -1,0 +1,37 @@
+components:
+  schemas:
+    Tickets:
+      type: object
+      required:
+        - _id
+        - date
+        - usuario
+        - monto
+        - cart
+        - code
+      properties:
+        _id:
+          type: string
+          description: El _id autogenerado por mongo, se utiliza para manejos internos.
+        date:
+          type: date
+          description: La fecha en formato dd/mm/aaaa.
+        usuario:
+          type: string
+          description: El email del usuario que realizo la compra.
+        monto:
+          type: number
+          description: Total al cual asciende la suma de los costos de cada producto.
+        cart:
+          type: string
+          description: El _id del carrito comprado.
+        code:
+          type: string
+          description: ID autogenerado por UUID.
+      example:
+        _id: 64addf15dbbe57d2869c3aea
+        date: 11/7/2023
+        usuario: matias@gattari.com
+        monto: 30000
+        cart: 6488eec8240bedad93228ae0
+        code: 4d6d2c30-100d-42af-9a9d-a96eb2d2e1e8

@@ -1,0 +1,11 @@
+ paths:
+  /:
+    get:
+      summary:  Muestra un mensaje de bienvenida al servidor
+      tags:
+        - Otros
+      responses:
+        "200":
+          description: Servidor levantado correctamente.
+        "500":
+          description: Error de servidor.   

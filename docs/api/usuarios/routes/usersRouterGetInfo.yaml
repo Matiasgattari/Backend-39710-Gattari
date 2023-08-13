@@ -1,0 +1,18 @@
+ paths:
+  /api/users/info:
+    get:
+      summary:  Ruta metodo "get" para ver un json con la informacion del usuario logeado. Solo accesible para usuarios logeados.
+      tags:
+        - Usuarios
+      responses:
+        "200":
+          description: Usuario logeado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosUsuario' 
+        "404":
+          description: Usuario NOT-FOUND.
+        "500":
+          description: Error de servidor.
+        

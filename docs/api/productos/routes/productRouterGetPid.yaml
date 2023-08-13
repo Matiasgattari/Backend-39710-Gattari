@@ -1,0 +1,23 @@
+paths:
+  /api/products/{PID}:
+    get:
+      summary: Muestra los detalles del producto enviado por pid.
+      tags:
+        - Productos
+      parameters: 
+        - name: PID
+          in: path
+          description: El identificador único del producto a ver
+          example: 64a787d0cb79472dae12d83d
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Producto encontrado.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosProductos'
+        "404":
+          description: Producto no encontrado.

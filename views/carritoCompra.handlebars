@@ -1,0 +1,33 @@
+<h1>{{encabezado}}</h1>
+{{#if hayCarrito}}
+
+
+<p class="text-danger">Lista de productos del carrito {{id}} :</p>
+<p class="text-danger">Cantidad de productos: {{cantidad}} :</p>
+<ul class="">
+  {{#each arrayProductos}}
+  <li>{{this}} </li>
+  {{/each}}
+</ul>
+
+<label for="carrito">Carrito:</label><input name="carrito" id="inputCarritoID" type="text" value="{{id}}" readonly disabled>
+<label for="rol">Rol:</label><input name="rol" id="inputRol" type="text" value="{{rol}}" readonly disabled>
+
+<br><br><br>
+
+<input id="botonVaciarCarrito" type="button" value="Vaciar carrito">
+<button id="botonComprarCarrito">Finalizar compra</button>
+<button id="volverAProductosCarrito">Volver a productos</button>
+
+<br><br>
+
+<input id="inputProductoEliminar" type="text" placeholder="Ingrese ID producto a eliminar">
+<button id="botonEliminarProducto">Eliminar producto</button><br>
+
+
+{{else}}
+<p class="text-danger">Carrito inexistente</p>
+{{/if}}
+
+<script src="/js/carrito.js"></script>
+ 

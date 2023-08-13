@@ -1,0 +1,262 @@
+{"level":"info","message":"conectado a base de datos en mongodb+srv://daravhel:coderhouse@cluster0.zibn0jy.mongodb.net/?retryWrites=true&w=majority"}
+{"level":"info","message":"Servidor escuchando en puerto 8080"}
+{"level":"info","message":"Metodo: GET - Url: /api/sessions/login - Fecha: 20:37:07"}
+{"level":"info","message":"Metodo: GET - Url: /favicon.ico - Fecha: 20:37:07"}
+{"level":"info","message":"Metodo: GET - Url: / - Fecha: 20:37:08"}
+{"level":"info","message":"Metodo: POST - Url: /api/usuariosLogin - Fecha: 20:37:18"}
+{"level":"info","message":"Metodo: GET - Url: /api/sessions/current - Fecha: 20:37:18"}
+{"level":"info","message":"Metodo: GET - Url: /favicon.ico - Fecha: 20:37:19"}
+{"level":"info","message":"Metodo: GET - Url: / - Fecha: 20:37:19"}
+{"level":"info","message":"Metodo: DELETE - Url: /api/usuariosLogin - Fecha: 20:37:20"}
+{"level":"info","message":"Metodo: GET - Url: /api/sessions/login - Fecha: 20:37:20"}
+{"level":"info","message":"Metodo: GET - Url: /favicon.ico - Fecha: 20:37:21"}
+{"level":"info","message":"Metodo: GET - Url: / - Fecha: 20:37:21"}
+{"level":"info","message":"Metodo: POST - Url: /api/usuariosLogin - Fecha: 20:37:23"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"info","message":"Metodo: POST - Url: /api/usuariosLogin - Fecha: 20:37:36"}
+{"level":"info","message":"Metodo: GET - Url: /api/sessions/current - Fecha: 20:37:36"}
+{"level":"info","message":"Metodo: GET - Url: /favicon.ico - Fecha: 20:37:36"}
+{"level":"info","message":"Metodo: GET - Url: / - Fecha: 20:37:37"}
+{"level":"info","message":"Metodo: GET - Url: /realtimeproducts? - Fecha: 20:37:40"}
+{"level":"debug","message":"Desde el realtimeproducts controller, previo al socket"}
+{"level":"debug","message":"Desde el realtimeproducts controller, en el socket"}
+{"level":"info","message":"Metodo: GET - Url: /favicon.ico - Fecha: 20:37:41"}
+{"level":"info","message":"Metodo: GET - Url: / - Fecha: 20:37:41"}
+{"level":"info","message":"Metodo: GET - Url: /home - Fecha: 20:37:43"}
+{"level":"debug","message":"producto home controller : {\n  _id: '648346e20be32cd25d6d5f60',\n  title: 'charmander',\n  description: 'numero pokedex 4',\n  price: 15000,\n  thumbnail: 'charmander.jpg',\n  stock: 10,\n  code: 'pokemon salamandra',\n  category: 'fuego',\n  status: true,\n  id: '2f6e5c9c-5235-4aa4-bb13-52c10516cd2a'\n},{\n  _id: '6483478c373fadc94de4632b',\n  title: 'squirtle',\n  description: 'numero pokedex 7',\n  price: 15000,\n  thumbnail: 'squirtle.jpg',\n  stock: 10,\n  code: 'pokemon tortuga',\n  category: 'agua',\n  status: true,\n  id: '581c0b96-3087-4404-86a8-a733063207b7'\n},{\n  _id: '64854632174ba43ec993aa8c',\n  title: 'eevee',\n  description: 'pokemon evolucion',\n  price: 30000,\n  thumbnail: 'eevee.jpg',\n  stock: 15,\n  code: 'zorro',\n  category: 'normal',\n  status: true,\n  id: '7beee976-4e7a-4064-8ba8-e3cba9f05ca0'\n},{\n  _id: '64854818fd9d5197191a86bf',\n  title: 'lapras',\n  description: 'numero pokedex 131',\n  price: 40000,\n  thumbnail: 'lapras.jpg',\n  stock: 8,\n  code: 'pokemon montura',\n  category: 'agua hielo',\n  status: true,\n  id: '1651040b-6fab-42f3-81d5-221f8a13d6d4'\n},{\n  _id: '6488da3144417ed30388af1b',\n  title: 'chansey',\n  description: 'numero pokedex 113',\n  price: 35000,\n  thumbnail: 'chansey.jpg',\n  stock: 15,\n  code: 'pokemon cura',\n  category: 'hada',\n  status: true,\n  id: '11071876-1a48-4e4d-bfc3-3f3036c07265'\n},{\n  _id: '6488ddd074c2a81f890909c2',\n  title: 'golbat',\n  description: 'numero pokedex 42',\n  price: 10000,\n  thumbnail: 'golbat.jpg',\n  stock: 10,\n  code: 'pokemon vampiro',\n  category: 'veneno',\n  status: true,\n  id: 'c224e9db-a26d-4a6c-9363-6a32b507bc3d'\n},{\n  _id: '6488e999b7b23fd9cf6f3c87',\n  title: 'lycanroc',\n  description: 'numero pokedex 745',\n  price: 30000,\n  thumbnail: 'lycanroc.jpg',\n  stock: 10,\n  code: 'pokemon perro',\n  category: 'roca',\n  status: true,\n  id: 'b5691ecb-7c97-4163-a230-0c0b395db94b'\n},{\n  _id: '6490e07e4877b30af4516f83',\n  title: 'dedenne',\n  description: 'pokemon roedor',\n  price: 10000,\n  thumbnail: 'dedenne.jpg',\n  stock: 10,\n  code: 'pokemon',\n  category: 'hada',\n  status: true,\n  id: 'a6499b4c-bdd1-462a-8ce0-d6c0d515004d'\n}"}
+{"level":"debug","message":"tipo de producto recibido: string"}
+{"level":"debug","message":"Desde el realtimeproducts controller, en el socket"}
+{"level":"info","message":"Metodo: GET - Url: /favicon.ico - Fecha: 20:37:44"}
+{"level":"info","message":"Metodo: GET - Url: / - Fecha: 20:37:44"}
+{"level":"info","message":"Metodo: GET - Url: /api/products/admin - Fecha: 20:38:06"}
+{"level":"info","message":"Metodo: GET - Url: /favicon.ico - Fecha: 20:38:06"}
+{"level":"info","message":"Metodo: GET - Url: / - Fecha: 20:38:06"}
+{"level":"fatal","message":"error fatal req.logger.fatal"}
+{"level":"fatal","message":"error fatal winstonLogger.fatal"}
+{"level":"error","message":" error req.logger.error"}
+{"level":"error","message":"error  winstonLogger.error"}
+{"level":"fatal","message":"error fatal req.logger.fatal"}
+{"level":"fatal","message":"error fatal winstonLogger.fatal"}
+{"level":"error","message":" error req.logger.error"}
+{"level":"error","message":"error  winstonLogger.error"}
+{"level":"error","message":"res.sendstatus is not a function"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: res.sendstatus is not a function"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"registrado is not defined"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: registrado is not defined"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"ERROR_DE_AUTENTICACION"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: ERROR_DE_AUTENTICACION"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"ERROR_DE_AUTENTICACION"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: ERROR_DE_AUTENTICACION"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: La contraseña no puede ser identica a la anterior"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"error","message":"La contraseña no puede ser identica a la anterior"}
+{"level":"error","message":"ERROR_DE_AUTENTICACION"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: ERROR_DE_AUTENTICACION"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...form>{{#if user.rol==\"Admin\"}}<button \n----------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...form>{{#if user.rol==\"Admin\"}}<button \n----------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...form>{{#if user.rol==\"Admin\"}}<button \n----------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...form>{{#if user.rol==\"Admin\"}}<button \n----------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...form>{{#if user.rol==\"Admin\"}}<button \n----------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...form>{{#if user.rol==\"Admin\"}}<button \n----------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...form>{{#if user.rol==\"Admin\"}}<button \n----------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 16:\n...rofile.js\"></script>\n-----------------------^\nExpecting 'OPEN_INVERSE_CHAIN', 'INVERSE', 'OPEN_ENDBLOCK', got 'EOF'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 13:\n...tton></form>{{#if rol(user.rol)}}<but\n---------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Missing helper: \"eq\""}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Missing helper: \"eq\""}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Missing helper: \"rol\""}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Missing helper: \"eq\""}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Missing helper: \"eq\""}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: CREACION-FALLIDA"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: CREACION-FALLIDA"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: CREACION-FALLIDA"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: CREACION-FALLIDA"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: CREACION-FALLIDA"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"Campo-con-valor-invalido"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Campo-con-valor-invalido"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"Campo-con-valor-invalido"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Campo-con-valor-invalido"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 18:\n...on>{{#if user.rol==\"User\"}}<p class\n--------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 18:\n...on>{{#if user.rol==\"User\"}}<p class\n--------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Cannot read properties of undefined (reading 'rol')"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"error","message":"Campo-con-valor-invalido"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Campo-con-valor-invalido"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unexpected token \" in JSON at position 0"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unexpected token g in JSON at position 0"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unexpected token d in JSON at position 0"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: alert is not defined"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: alert is not defined"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: NOT-FOUND"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"code":"ESOCKET","command":"CONN","level":"fatal"}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Unauthorized"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: ERROR_DE_PERMISOS"}
+{"level":"fatal","message":"*********************************************************************************************************** "}

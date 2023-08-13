@@ -1,0 +1,22 @@
+components:
+  schemas:
+    Chat:
+      type: object
+      required:
+        - timestamp
+        - autor
+        - mensaje
+      properties:
+        timestamp:
+          type: string
+          description: la fecha y hora en la que se envia el mensaje, formato string.
+        autor:
+          type: string
+          description: El usuario que esta con la sesion iniciada.
+        mensaje:
+          type: string
+          description: El mensaje a enviar por el usuario.
+      example:
+        timestamp: 1685757069754
+        autor: Matiasgattari
+        mensaje: hola, soy un mensaje

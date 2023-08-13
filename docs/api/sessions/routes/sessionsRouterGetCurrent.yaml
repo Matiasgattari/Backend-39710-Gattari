@@ -1,0 +1,18 @@
+ paths:
+  /api/sessions:
+    get:
+      summary:  Administrador de sesiones. Accesible solo para usuarios logeados y sin logear, permite redirigir a el registro o al inicio de sesion. Tambien permite al usuario cargar un archivo JSON, y si el usuario no es de tipo "Premium", permite acceder al mismo.
+      tags:
+        - Sesiones
+      responses:
+        "200":
+          description: Usuario cargado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DatosUsuario' 
+        "404":
+          description: Usuario NOT-FOUND.
+        "500":
+          description: Error de servidor.
+     

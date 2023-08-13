@@ -1,0 +1,19 @@
+
+ paths:
+  /api/sessions/register:
+    get:
+      summary:  Ruta metodo "get" para registrar los usuarios. Accesible solo para usuarios sin logear.
+      tags:
+        - Sesiones
+      responses:
+        "200":
+          description: Usuario creado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DatosUsuario' 
+        "404":
+          description: Usuario NOT-FOUND.
+        "500":
+          description: Error de servidor.
+     

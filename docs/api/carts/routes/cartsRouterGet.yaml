@@ -1,0 +1,21 @@
+ paths:
+  /api/carts/:
+    get:
+      summary:  Ruta metodo "get" para ver los carritos enlistados. Solo accesible para "Admin".
+      tags:
+        - Carritos
+      responses:
+        "200":
+          description: Carritos encontrados.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carritos'
+        "404":
+          description: Carritos NOT-FOUND.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosCrearCarrito'      
+        "500":
+          description: Error de servidor.   

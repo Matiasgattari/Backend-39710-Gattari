@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "64d938128bfadd4baaaf8e5a",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 15000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "74a136dd-ae95-43b7-8055-0bbd6ee7aac8"
+  },
+  {
+    "_id": "64d9381f8bfadd4baaaf8e72",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 15000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "283d9d47-3bae-4574-8efb-b935c38b63b0"
+  },
+  {
+    "_id": "64d9393d89929de7572efc12",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 15000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "3f112169-bef2-4ac5-b23b-e723d93d8f19"
+  },
+  {
+    "_id": "64d93a4e7ec43c302f4e9595",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 15000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "0f1057d1-0494-4c37-90a0-13a472739b8d"
+  },
+  {
+    "_id": "64d93aab61e1dd756b29addd",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 15000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "81d8b085-0397-4d73-8f83-7b91716ef256"
+  },
+  {
+    "_id": "64d93c01e51cc829a60f2746",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 15000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "bea0e2c8-55ad-4110-8042-116ab67ae0e6"
+  },
+  {
+    "_id": "64d93c6450dc006d6f5ad60f",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 30000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "118b15b1-6d08-4b3d-b48f-8c1d96bdba2a"
+  },
+  {
+    "_id": "64d93c7e50dc006d6f5ad62b",
+    "date": "13/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 15000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "39c8bfb9-4d3c-40b5-bc82-f6f207110999"
+  }
+]

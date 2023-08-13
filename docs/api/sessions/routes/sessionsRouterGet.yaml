@@ -1,0 +1,13 @@
+ paths:
+  /api/sessions:
+    get:
+      summary:  Administrador de sesiones. Accesible solo para usuarios logeados y sin logear, permite redirigir a el registro o al inicio de sesion.
+      tags:
+        - Sesiones
+      responses:
+        "200":
+          description: Pagina cargada correctamente.
+        "404":
+          description: Pagina NOT-FOUND.
+        "500":
+          description: Error de servidor.

@@ -1,0 +1,29 @@
+ paths:
+  /mockingproducts:
+    get:
+      summary:  Test de mockeo. Solo permitido el ingreso a "Admin"
+      tags:
+        - Tests
+      responses:
+        "200":
+          description: Mocking realizado correctamente.
+        "404":
+          description: Falla de mocking.
+        "500":
+          description: Error de servidor.
+  /loggerTest:
+    get:
+      summary:  Test de loggers. Solo permitido el ingreso a "Admin"
+      tags:
+        - Tests
+      responses:
+        "200":
+          description: Loggeo realizado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosProducto'
+        "404":
+          description: Falla de loggeo.
+        "500":
+          description: Error de servidor.

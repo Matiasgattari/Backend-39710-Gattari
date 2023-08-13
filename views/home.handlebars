@@ -1,0 +1,24 @@
+<h1>{{encabezado}}</h1>
+
+
+{{#if hayProductos}}
+<h4>PRODUCTOS</h4>
+<ul>
+     {{#each producto}}
+     <li>id: {{this._id}}, title: {{this.title}} , description: {{this.description}} , thumbnail: {{this.thumbnail}} ,stock: {{this.stock}} , code: {{this.code}} , category: {{this.category}} , status: {{this.status}} , id: {{this.id}}. </li> <button onclick='verId("{{this._id}}")'>ver</button>
+     {{/each}}
+</ul>
+{{else}}
+<p class="text-danger">sin productos agregados</p>
+{{/if}}
+
+
+
+<script src="/socket.io/socket.io.js"></script> 
+<script src="/js/indexHome.js"></script>
+<script> function verId(id) {
+      const url = window.location.origin; //obtiene la URL actual
+      const url2 = url + `/api/products/${id}/` //agrega el string al final
+      window.location.href = url2
+      }
+     </script>

@@ -1,0 +1,21 @@
+ paths:
+  /api/tickets/:
+    delete:
+      summary:  Ruta metodo "delete" para eliminar todos los tickets. Solo accesible para "Admin".
+      tags:
+        - Tickets
+      responses:
+        "200":
+          description: Tickets eliminados correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tickets'
+        "404":
+          description: Tickets NOT-FOUND.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosCrearTicket'      
+        "500":
+          description: Error de servidor.   

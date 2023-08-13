@@ -1,0 +1,26 @@
+<h1>Chat con Socket.io</h1>
+
+<p>Bienvenido {{user.first_name}}</p>
+<form id="form-nombre">
+  <input
+    type="text"
+    id="nombre"
+    placeholder="Escribe tu nombre"
+    value="{{user.first_name}}"
+    readonly
+  />
+  <button type="submit">Unirse al chat</button>
+</form>
+
+<div id="mensajes"></div>
+<form id="form-mensaje">
+  <input type="text" id="texto" placeholder="Escribe tu mensaje" />
+  <button type="submit">Enviar</button>
+</form>
+
+<form id="formLogout">
+  <button type="submit" id="btn_logout">Logout</button>
+</form>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chatUsuarios.js"></script>

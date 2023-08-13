@@ -1,0 +1,29 @@
+ paths:
+  /api/tickets/{TID}:
+    put:
+      summary:  Ruta metodo "put" para eliminar 1 solo ticket. Solo accesible para "Admin".
+      tags:
+        - Tickets
+      parameters: 
+        - name: TID
+          in: path
+          description: El identificador único del carrito a mostrar
+          example: 64addf15dbbe57d2869c3aea
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Ticket eliminado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tickets'
+        "404":
+          description: Tickets NOT-FOUND.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosCrearTicket'      
+        "500":
+          description: Error de servidor.   

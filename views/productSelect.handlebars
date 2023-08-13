@@ -1,0 +1,25 @@
+<h1>{{encabezado}}</h1>
+{{#if producto}}
+
+<h2>Producto:{{producto._id}} </h2>
+<h3>Titulo:{{producto.title}} </h3>
+<p>Description:{{producto.description}} </p>
+<p>Precio:{{producto.price}} </p>
+<p>Imagen URL:{{producto.thumbnail}} </p>
+<p>Stock:{{producto.stock}} </p>
+<p>Código:{{producto.code}} </p>
+<p>Categoria:{{producto.category}} </p>
+<p>Estatus:{{producto.status}} </p>
+<p>id:{{producto.id}} </p>
+<form action="" id="formularioAgregadoProductoSIndividual">
+    <input id="rol" type="text" placeholder="Rol" value={{usuario}} disabled>
+    <input id="idProductoAgregar" type="text" placeholder="Ingrese ID carrito" value={{producto._id}} disabled>
+    <input id="carritoAAgregar" type="text" placeholder="Ingrese ID carrito" value={{carrito}} disabled>
+    <button id="botonAregarCadaProducto">Agregar al carrito</button>
+</form>
+    <button id="volverAProductos">Volver a lista de productos</button>
+{{else}}
+<p class="text-danger">sin productos que mostrar</p>
+{{/if}}
+
+<script src="/js/productSelected.js"></script>

@@ -1,0 +1,18 @@
+<h1>{{encabezado}} </h1>
+
+<h3>Ingrese a "/api/sessions/" para poder registrarse o iniciar sesion.</h3>
+<button onclick="sesiones()">Mi sesion</button>
+<button onclick="registrar()">Registrarse</button>
+
+<script> 
+function sesiones(){
+    const url = window.location.origin
+    const url2 = url + `/api/sessions/current` 
+    window.location.href = url2
+}
+function registrar(){
+    const url = window.location.origin
+    const url2 = url + `/api/sessions/register` 
+    window.location.href = url2
+}
+</script>

@@ -1,0 +1,21 @@
+<h1>{{encabezado}}</h1>
+{{#if hayTickets}}
+
+
+<p class="text-danger">Lista de carritos parseados al array [];</p>
+<ul class="">
+  {{#each arrayTickets}}
+  <li>{{this}}</li>
+  {{/each}}
+</ul>
+<form id="formularioTickets" action="">
+<button id="botonEliminarTodosTickets">Eliminar todos</button><br>
+<input id="inputIDTicket" type="text" placeholder="ingrese _id ticket a eliminar">
+<button id="botonEliminarTicket">Eliminar ticket</button>
+</form>
+
+{{else}}
+<p class="text-danger">sin tickets creados</p>
+{{/if}}
+
+<script src="/js/tickets.js"></script>

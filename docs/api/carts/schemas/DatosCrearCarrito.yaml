@@ -1,0 +1,120 @@
+components:
+  requestBodies:
+    DatosCarrito:
+      type: object
+      required:
+        - _id
+        - id
+        - quantity
+        - products
+      properties:
+        _id:
+          type: string
+          description: El _id autogenerado por mongoose, se utiliza internamente para los metodos.
+        id:
+          type: string
+          description: El id del carrito dado por el usuario.
+        quantity:
+          type: number
+          description: cantidad de productos dentro del carrito.
+        products:
+          type: array
+          description: El array de los productos que posee el carrito.
+          items:
+            type: object
+            properties:
+              productID:
+                type: object
+                description: El _id de los productos agregados.
+                properties:
+                  _id:
+                    type: string
+                    description: El _id autogenerado por mongoose, se utiliza internamente para los metodos.
+                  title:
+                    type: string
+                    description: El titulo del producto
+                  description:
+                    type: string
+                    description: La descipcion del producto.
+                  price:
+                    type: number
+                    description: El precio (en numeros enteros positivos) del producto.
+                  thumbnail:
+                    type: string
+                    description: La direccion de la imagen del producto.
+                  stock:
+                    type: number
+                    description: El stock (en numeros enteros positivos) del producto.
+                  code:
+                    type: string
+                    description: El codigo del producto.
+                  category:
+                    type: string
+                    description: la categoria del producto.
+                  status:
+                    type: boolean
+                    description: El status del producto.
+                  id:
+                    type: string
+                    description: El id que le da el usuario al producto.
+                required:
+                  - _id
+                  - title
+                  - description
+                  - price
+                  - thumbnail
+                  - stock
+                  - code
+                  - category
+                  - status
+                  - id
+              quantity:
+                type: integer
+                description: La cantidad de productos dentro del carrito
+              _id:
+                type: string
+                description: El _id autogenerado por mongoose, se utiliza internamente para los metodos.
+      example:
+        _id: 64851351024ed2d6a37c5c50
+        id: 5f445c06-d1fa-4a7e-b9bb-d67205d3cc3a
+        quantity: 1
+        products:
+          - productID:
+              _id: 648346e20be32cd25d6d5f60
+              title: charmander
+              description: numero pokedex 4
+              price: 15000
+              thumbnail: charmander.jpg
+              stock: 10
+              code: pokemon salamandra
+              category: fuego
+              status: true
+              id: 2f6e5c9c-5235-4aa4-bb13-52c10516cd2a
+            quantity: 1
+            _id: 64851393024ed2d6a37c5c7b
+
+    DatosCrearCarrito:
+      type: object
+      required:
+        - _id
+        - id
+        - quantity
+        - product
+      properties:
+        _id:
+          type: string
+          description: El _id autogenerado por mongoose, se utiliza internamente para los metodos.
+        id:
+          type: string
+          description: El id del carrito dado por el usuario.
+        quantity:
+          type: number
+          description: cantidad de productos dentro del carrito.
+        products:
+          type: array
+          description: El array de los productos que posee el carrito.
+      example:
+        _id: 64a787eccb79472dae12d843
+        id: 040cff69-9348-4ee5-af59-2cb925a38e37
+        quantity: 0
+        products: []

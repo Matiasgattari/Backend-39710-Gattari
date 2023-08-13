@@ -1,0 +1,26 @@
+tags:
+  - name: Productos
+    description: API para administrar productos.
+
+  - name: Usuarios
+    description: API para administrar usuarios.
+
+  - name: Carritos
+    description: API para administrar carritos.
+
+  - name: Sesiones 
+    description: API para administrar sesiones.
+
+  - name: Tickets 
+    description: API para administrar Tickets.
+
+  - name: Chat 
+    description: Chat con socket.io para Usuarios.
+
+  - name: Tests 
+    description: Endpoints de testing, solo "Admin".
+
+  - name: Otros 
+    description: Endpoints en la ruta raiz.
+
+

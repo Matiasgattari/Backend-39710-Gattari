@@ -1,0 +1,15 @@
+ paths:
+  /home:
+    get:
+      summary:  Ruta metodo "get", enlista todos los productos y permite acceder a los mismos por una botonera. Accesible para usuarios logeados.
+      tags:
+        - Otros
+      responses:
+        "200":
+          description: Productos cargados correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Productos'
+        "500":
+          description: Error de servidor

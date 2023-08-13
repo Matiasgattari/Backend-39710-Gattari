@@ -1,0 +1,28 @@
+<h1>Tu perfil (sin datos sensibles)</h1>
+{{user.rol}}
+<p>Nombre completo: {{user.last_name}}, {{user.first_name }} </p>
+<p>Correo electronico: {{user.email}}</p>
+<p>Edad: {{user.age}}</p>
+<p>Rol: {{user.rol}}</p>
+<p>Ultima conexión: {{user.last_connection}}</p>
+<form id="formLogout">
+  <button type="submit" id="btn_logout">Logout</button>
+</form>
+<form id="formReestablecer">
+  <button type="submit" id="btn_reestablecer_profile">Reestablecer Contraseña</button>
+</form>
+ 
+ <button type="submit" id="btn_cargar_JSON" >Cargar archivo JSON</button>
+
+
+{{!-- {{#if user.rol=="User"}}
+
+<p class="text-danger">Cambiar a usuario Premium</p>
+<button type="submit" id="btn_cambiar_premium" >Cambiar a premium</button>
+
+{{/if}}
+ --}}
+
+
+
+<script src="/js/profile.js"> </script>

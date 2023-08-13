@@ -1,0 +1,25 @@
+<h1>{{encabezado}}</h1>
+
+
+{{#if hayUsuarios}}
+<h4>USUARIOS</h4>
+<ul>
+     {{#each arrayUsuarios}}
+     <li>Usuario: {{this.email}}, Nombre completo: {{this.nombre}} , Carrito ID: {{this.carrito}} , Rol: {{this.rol}}, Ultima conexion: {{this.last_connection}}. </li>  {{/each}}
+</ul>
+{{else}}
+<p class="text-danger">Sin usuarios ausentes</p>
+{{/if}}
+
+<button onClick='volver()'>Volver</button>
+<button id="botonEliminarUsuarios">Eliminar usuarios</button>
+
+<script src="/js/usersBussyList.js"></script>
+<script>
+    function volver () {
+        const url = window.location.origin
+        const url2 = url + `/api/users/` 
+        window.location.href = url2
+    }
+</script>
+

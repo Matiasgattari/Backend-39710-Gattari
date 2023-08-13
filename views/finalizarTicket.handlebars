@@ -1,0 +1,22 @@
+<h1>{{encabezado}}</h1>
+
+<h3>Carrito comprado. Si usted aun visualiza productos dentro del carrito, su stock es insuficiente y no pueden ser enviados.`, carrito: {{carrito}}</h3>
+
+{{#if hayProductos}}
+<h2>Productos sin stock:</h2>
+{{#each productos}}
+     <li>{{this}}</li>
+  {{/each}}
+{{else}}
+<p class="text-danger">Todos los productos presentan stock suficiente. Compra finalizada correctamente</p>
+{{/if}}
+
+<button onclick="volver()">Volver al inicio</button>
+
+<script> 
+function volver(){
+    const url = window.location.origin
+    window.location.href = url
+}
+</script>
+

@@ -1,0 +1,16 @@
+<h1>{{encabezado}}</h1>
+{{#if hayCarritos}}
+
+
+<p class="text-danger">Lista de carritos parseados al array [];</p>
+<ul class="">
+  {{#each arrayCarritos}}
+  <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+
+{{else}}
+<p class="text-danger">sin carritos creados</p>
+{{/if}}
+

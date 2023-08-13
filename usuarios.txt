@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "64d937fb8bfadd4baaaf8e42",
+    "email": "lea.mg90@gmail.com",
+    "password": "$2b$10$zTVY041JtS8V6Su1/3WRb.4ZsMvWD.GBU2cjW4nhHo2Edwfn6UMDe",
+    "first_name": "matias",
+    "last_name": "gattari",
+    "age": 33,
+    "rol": "Admin",
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64d937fb8bfadd4baaaf8e43"
+      }
+    ],
+    "last_connection": "13/8/2023, 17:07:23"
+  }
+]

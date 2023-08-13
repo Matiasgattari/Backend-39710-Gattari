@@ -1,0 +1,33 @@
+ paths:
+  /api/products/productSelected/{PID}:
+    put:
+      summary:  Ruta de modificacion de productos trabajada con socket.io para /realtimeproducts.. Solo accesible para "Admin" y usuario "Premium".
+      tags:
+        - Productos
+      parameters: 
+        - name: PID
+          in: path
+          description: El identificador único del producto a eliminar
+          example: 64a787d0cb79472dae12d83d
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+           application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosProductos'
+      responses:
+        "200":
+          description: Producto modificado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Productos'
+        "500":
+          description: Modificacion fallida.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosCrearProducto'      

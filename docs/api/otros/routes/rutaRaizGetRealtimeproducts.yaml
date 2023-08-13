@@ -1,0 +1,15 @@
+ paths:
+  /realtimeproducts:
+    get:
+      summary:  Ruta metodo "get", enlista todos los productos y permite acceder a los mismos por una botonera, asi como crear y eliminar productos. funciona con socket.io. Accesible para usuarios Admins.
+      tags:
+        - Otros
+      responses:
+        "200":
+          description: Productos cargados correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Productos'
+        "500":
+          description: Error de servidor

@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "64b6df98a8933c90bbc33556",
+    "title": "bulbasaur",
+    "description": "pokemon planta",
+    "price": 10000,
+    "thumbnail": "bulbasaur.jpg",
+    "stock": 15,
+    "code": "123-456-789",
+    "category": "inicial",
+    "status": true,
+    "id": "8b059f4f-8bfd-4ff2-ac4e-df810e2ed6a5",
+    "owner": "lea.mg90@gmail.com"
+  },
+  {
+    "_id": "64b6dfc3a8933c90bbc3355d",
+    "title": "charmander",
+    "description": "pokemon fuego",
+    "price": 15000,
+    "thumbnail": "charmander.jpg",
+    "stock": 15,
+    "code": "222-333-444",
+    "category": "inicial",
+    "status": true,
+    "id": "a0f0ecc2-b548-4072-8976-38f8c7f08c12",
+    "owner": "lea.mg90@gmail.com"
+  },
+  {
+    "_id": "64b6f1a283fff8f5e6744a0a",
+    "title": "squirtle",
+    "description": "pokemon agua",
+    "price": 15000,
+    "thumbnail": "squirtle.jpg",
+    "stock": 12,
+    "code": "122-363-898",
+    "category": "inicial",
+    "status": true,
+    "id": "c766cb48-d4f8-4896-855b-2b0a922f2f42",
+    "owner": "lea.mg90@gmail.com"
+  }
+]

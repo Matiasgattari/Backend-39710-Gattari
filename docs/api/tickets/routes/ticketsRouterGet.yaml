@@ -1,0 +1,21 @@
+ paths:
+  /api/tickets/:
+    get:
+      summary:  Ruta metodo "get" para ver los tickets enlistados. Solo accesible para "Admin".
+      tags:
+        - Tickets
+      responses:
+        "200":
+          description: Tickets encontrados.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tickets'
+        "404":
+          description: Tickets NOT-FOUND.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosCrearTicket'      
+        "500":
+          description: Error de servidor.   

@@ -1,0 +1,59 @@
+components:
+  requestBodies:
+    DatosUsuario:
+      type: object
+      required:
+        - _id
+        - email
+        - password
+        - first_name
+        - last_name
+        - age
+        - rol
+        - cart
+      properties:
+        _id:
+          type: string
+          description: El _id autogenerado por mongoose, utilizado para los manejos internos.
+        email:
+          type: string
+          description: El email de quien creo el usuario. Se utilizara como nombre de usuario.
+        password:
+          type: string
+          description: La contraseña definida por el usuario, la misma se hasheara para mas seguridad.
+        first_name:
+          type: string
+          description: El nombre del usuario.
+        last_name:
+          type: string
+          description: El apellido del usuario.
+        age:
+          type: number
+          description: La edad del usuario.
+        rol:
+          type: string
+          description: El rol del usuario, definido entre "User", "Premium" y "Admin".
+        cart:
+          type: string
+          description: El _id del carrito que se le autoasigna a cada usuario creado.
+      example:
+        _id: 64ade45416e4ea1bfed01542
+        email: satoshi@gattari.com
+        password: "$2b$10$KCYb3lhnjWB6lI7TU7En1eLAFCPBQBaXDup5WLzIlNBK7b7qiA7A2"
+        first_name: satoshi
+        last_name: gattari
+        age: 33
+        rol: Premium
+        cart: 64ade45416e4ea1bfed01540
+    mensajeCargaJson:
+      type: object
+      required:
+        - _id
+        - email
+      properties:
+        message:
+          type: string
+          description: Mensaje de confirmacion de carga de archivo exitosa.
+      example:
+        message: "Archivo cargado correctamente bajo el nombre: 1.690.335.072.908-mariano@aquino.com-package.json, en la ruta static\\documents\\1.690.335.072.908-mariano@aquino.com-package.json"
+

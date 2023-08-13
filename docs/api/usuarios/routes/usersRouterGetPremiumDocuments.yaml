@@ -1,0 +1,14 @@
+ paths:
+  /api/users/premium/documents:
+    get:
+      summary:  Ruta metodo "get" para que un usuario "Premium" pueda cargar un archivo tipo "json". Solo accesible para usuarios "Premium".
+      tags:
+        - Usuarios
+      responses:
+        "200":
+          description: Pagina cargado correctamente, usuario logeado tipo "Premium".
+        "404":
+          description: Error de credenciales.
+        "500":
+          description: Error de servidor.
+        

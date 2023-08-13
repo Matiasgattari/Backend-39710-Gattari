@@ -1,0 +1,16 @@
+ paths:
+  /chat:
+    get:
+      summary:  Ruta de chat con socket.io . Solo accesible para "User".
+      tags:
+        - Chat
+      responses:
+        "200":
+          description: Chat conectado.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chat'
+        "500":
+          description: Falla de servidor.
+     

@@ -1,0 +1,30 @@
+ paths:
+  /api/carts/{CID}:
+    get:
+      summary:  Ruta metodo "get" para ver el carrito seleccionado que se va a comprar. Accesible para los usuarios loggeados. Renderiza CarritoCompra.handlebars
+      tags:
+        - Carritos
+      parameters: 
+        - name: CID
+          in: path
+          description: El identificador único del carrito a mostrar
+          example: 6488aff0596de2eac5b46f9f
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Carrito encontrado.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carritos'
+        "404":
+          description: Carrito NOT-FOUND.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosCrearCarrito'      
+        "500":
+          description: Error de servidor.
+  

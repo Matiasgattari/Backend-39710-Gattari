@@ -1,0 +1,37 @@
+ paths:
+  /api/carts/{CID}/productoEliminar/{PID}:
+    get:
+      summary:  Metodo " " para eliminar el producto seleccionado del carrito especificado. Solo accesible para "Admin".
+      tags:
+        - Carritos
+      parameters: 
+        - name: CID
+          in: path
+          description: El identificador único del carrito a mostrar
+          example: 6488aff0596de2eac5b46f9f
+          required: true
+          schema:
+            type: string
+        - name: PID
+          in: path
+          description: El identificador único del producto a eliminar
+          example: 64a787d0cb79472dae12d83d
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Carrito encontrado.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Carritos'
+        "404":
+          description: Carrito NOT-FOUND.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/DatosCrearCarrito'      
+        "500":
+          description: Error de servidor.
+  

@@ -1,0 +1,62 @@
+components:
+  schemas:
+    Productos:
+      type: object
+      required:
+        - _id
+        - title
+        - description
+        - price
+        - thumbnail
+        - stock
+        - code
+        - category
+        - status
+        - id
+        - owner
+      properties:
+        _id:
+          type: string
+          description: El _id autogenerado por mongoose, se utiliza internamente para los metodos.
+        title:
+          type: string
+          description: El titulo del producto.
+        description:
+          type: string
+          description: La descripcion del producto.
+        price:
+          type: number
+          description: El precio unitario del producto.
+        thumbnail:
+          type: string
+          description: La ruta de la imagen del producto.
+        stock:
+          type: number
+          description: El stock del producto.
+        code:
+          type: string
+          description: El codigo del producto.
+        category:
+          type: string
+          description: La categoria del producto.
+        status:
+          type: boolean
+          description: Estado habilitado / deshabilitado del producto.
+        id:
+          type: string
+          description: El id del producto.
+        owner:
+          type: string
+          description: El email del usuario que creo el producto.
+      example:
+        _id: 64a787d0cb79472dae12d83d
+        title: togepi
+        description: pokemon huevo
+        price: 20000
+        thumbnail: togepi.jpg
+        stock: 5
+        code: pokemon raro
+        category: hada
+        status: true
+        id: 90fcf1b2-1783-4302-9e50-1140d4b59b44
+        owner: lea.mg90@gmail.com

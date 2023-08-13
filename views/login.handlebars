@@ -1,0 +1,29 @@
+<h1>Login</h1>
+<form action="" id="formLogin">
+  <label for="input_email">email</label> <input id="input_email_login" type="email" placeholder="email"><br>
+  <label for="input_password">password</label> <input id="input_password_login" type="password" placeholder="password"><br>
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+<p>¿No estás registrado? <a href="/api/sessions/register">Regístrate aquí</a></p>
+<p>¿Olvido su contraseña? <a href="/api/sessions/reestablecer">Olvide mi contraseña</a></p>
+
+<div>
+  <a href="/api/sessions/github">
+    <button>Entrar con Github</button>
+  </a>
+</div>
+
+
+<h1>Lista de usuarios</h1>
+          <ul>
+            {{#each usuario}}
+            <li>{{this}}</li>
+            {{/each}}
+          </ul>
+
+
+
+<script src="/js/login.js"></script>

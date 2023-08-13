@@ -1,0 +1,14 @@
+ paths:
+  /api/users/login:
+    delete:
+      summary:  Ruta metodo "delete" para cerrar la sesion del usuario. Accesible solamente para usuarios logeados.
+      tags:
+        - Usuarios
+      responses:
+        "200":
+          description: Sesion cerrada correctamente.
+        "404":
+          description: Usuario NOT-FOUND.
+        "500":
+          description: Error de servidor.
+        

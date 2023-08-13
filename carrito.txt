@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "64d937fb8bfadd4baaaf8e40",
+    "id": "1316515a-acdc-4a51-b809-e03b110b7734",
+    "quantity": 1,
+    "products": [
+      {
+        "productID": {
+          "_id": "64b6f1a283fff8f5e6744a0a",
+          "title": "squirtle",
+          "description": "pokemon agua",
+          "price": 15000,
+          "thumbnail": "squirtle.jpg",
+          "stock": 13,
+          "code": "122-363-898",
+          "category": "inicial",
+          "status": true,
+          "id": "c766cb48-d4f8-4896-855b-2b0a922f2f42",
+          "owner": "lea.mg90@gmail.com"
+        },
+        "quantity": 1,
+        "_id": "64d93c7950dc006d6f5ad61d"
+      }
+    ]
+  }
+]

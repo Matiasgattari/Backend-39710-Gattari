@@ -1,0 +1,18 @@
+ paths:
+  /api/users/premium/{UID}/documents:
+    post:
+      summary:  Ruta metodo "post" para que un usuario "Premium" pueda cargar un archivo tipo "json". El mismo por medio de "multer" se almacena. Solo accesible para usuarios "Premium".
+      tags:
+        - Usuarios
+      responses:
+        "200":
+          description: Archivo cargado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/requestBodies/mensajeCargaJson' 
+        "404":
+          description: Usuario NOT-FOUND.
+        "500":
+          description: Error de servidor.
+        
