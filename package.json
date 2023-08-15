@@ -42,7 +42,8 @@
   },
   "mocha": {
     "timeout": 20000
-  }
+  },
+  "engines": { "node": "16.x" }
 }
 
 

@@ -260,3 +260,18 @@
 {"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
 {"level":"fatal","message":"Error: ERROR_DE_PERMISOS"}
 {"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Cannot read properties of undefined (reading 'rol')"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Cannot read properties of undefined (reading 'rol')"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Cannot read properties of undefined (reading 'rol')"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Cannot read properties of undefined (reading 'rol')"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: ERROR_DE_PERMISOS"}
+{"level":"fatal","message":"*********************************************************************************************************** "}

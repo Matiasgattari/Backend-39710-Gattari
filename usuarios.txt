@@ -16,5 +16,23 @@
       }
     ],
     "last_connection": "13/8/2023, 17:07:23"
+  },
+  {
+    "_id": "64db7d8ac6e23ce7bc4e63bb",
+    "email": "cafe@cafe.com",
+    "password": "$2b$10$nFa7OWFRcebX4FcLOaWjy.IEchcbVexGsJujlXN4WZX/NI40UniYi",
+    "first_name": "cafe",
+    "last_name": "cafe",
+    "age": 22,
+    "rol": "User",
+    "cart": "64db7d8ac6e23ce7bc4e63b9",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64db7d8ac6e23ce7bc4e63bc"
+      }
+    ],
+    "last_connection": "8/15/2023, 1:28:42 PM"
   }
 ]

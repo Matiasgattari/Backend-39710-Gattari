@@ -1,4 +1,4 @@
-<h1>Reestablecer</h1>
+<h1>Reestablecer contraseña</h1>
 <form action="" id="formLogin">
   <label for="label_reestablecer_email">Email</label> <input id="input_reestablecer_email" type="email" value="{{usuario}}" disabled><br>
   <label for="label_reestablecer_name">Nombre</label> <input id="input_reestablecer_name" type="text" placeholder="Name" required><br>
@@ -8,13 +8,5 @@
   <button type="submit" id="btn_reestablecer_submit">Reestablecer</button>
 </form>
 
-<div>
-<h1>Lista de usuarios</h1>
-          <ul>
-            {{#each usuarios}}
-            <li>{{this}}</li>
-            {{/each}}
-          </ul>
-</div>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="/js/reestablecer.js"></script>

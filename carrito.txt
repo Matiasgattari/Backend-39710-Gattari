@@ -2,25 +2,31 @@
   {
     "_id": "64d937fb8bfadd4baaaf8e40",
     "id": "1316515a-acdc-4a51-b809-e03b110b7734",
-    "quantity": 1,
+    "quantity": 2,
     "products": [
       {
         "productID": {
-          "_id": "64b6f1a283fff8f5e6744a0a",
-          "title": "squirtle",
-          "description": "pokemon agua",
-          "price": 15000,
-          "thumbnail": "squirtle.jpg",
-          "stock": 13,
-          "code": "122-363-898",
-          "category": "inicial",
+          "_id": "64db821494562fbf475d1ff6",
+          "title": "lapras",
+          "description": "pokemon montura",
+          "price": 150000,
+          "thumbnail": "lapras.jpg",
+          "stock": 21,
+          "code": "123-123-asdas",
+          "category": "montura",
           "status": true,
-          "id": "c766cb48-d4f8-4896-855b-2b0a922f2f42",
+          "id": "adc92ce8-c6bd-4154-b868-473ad49fad4e",
           "owner": "lea.mg90@gmail.com"
         },
         "quantity": 1,
-        "_id": "64d93c7950dc006d6f5ad61d"
+        "_id": "64db823a94562fbf475d2035"
       }
     ]
+  },
+  {
+    "_id": "64db7d8ac6e23ce7bc4e63b9",
+    "id": "62345f09-129e-49a6-9abe-e2591b24da49",
+    "quantity": 0,
+    "products": []
   }
 ]

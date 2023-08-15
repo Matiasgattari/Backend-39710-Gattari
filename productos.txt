@@ -37,5 +37,18 @@
     "status": true,
     "id": "c766cb48-d4f8-4896-855b-2b0a922f2f42",
     "owner": "lea.mg90@gmail.com"
+  },
+  {
+    "_id": "64db821494562fbf475d1ff6",
+    "title": "lapras",
+    "description": "pokemon montura",
+    "price": 150000,
+    "thumbnail": "lapras.jpg",
+    "stock": 21,
+    "code": "123-123-asdas",
+    "category": "montura",
+    "status": true,
+    "id": "adc92ce8-c6bd-4154-b868-473ad49fad4e",
+    "owner": "lea.mg90@gmail.com"
   }
 ]

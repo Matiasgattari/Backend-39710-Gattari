@@ -22,7 +22,7 @@ import {inicioMongoose} from './database/mongoose.js'
 import session from './middlewares/session.js';
 
 import { manejadorDeErrores } from './middlewares/manejoDeErroresRest.js';
-import { sinLoguear, soloAdmin, soloLogueados, soloPremium } from './middlewares/soloLogueados.js';
+import { soloAdmin, soloLogueados, soloPremium } from './middlewares/soloLogueados.js';
 import { chatController } from './controllers/web/chat.controller.js';
 
 //PASSPORT

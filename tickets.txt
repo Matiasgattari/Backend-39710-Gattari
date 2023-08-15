@@ -62,5 +62,13 @@
     "monto": 15000,
     "cart": "64d937fb8bfadd4baaaf8e40",
     "code": "39c8bfb9-4d3c-40b5-bc82-f6f207110999"
+  },
+  {
+    "_id": "64db821f94562fbf475d200d",
+    "date": "15/8/2023",
+    "usuario": "lea.mg90@gmail.com",
+    "monto": 150000,
+    "cart": "64d937fb8bfadd4baaaf8e40",
+    "code": "25e46abf-6007-46c8-b342-b76e2ac3b32e"
   }
 ]

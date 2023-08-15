@@ -19,7 +19,7 @@ import { userRouter } from './userRouter.js';
 //importo las funciones que voy a utulizar con passport de la carpeta middlewares
 import { antenticacionPorGithub_CB, autenticacionPorGithub, passportInitialize, passportSession } from '../middlewares/passport.js';
 import { postAUsuarios } from '../controllers/api/usuarios.controller.js';
-import { sinLoguear, soloLogueados } from '../middlewares/soloLogueados.js';
+import { soloLogueados } from '../middlewares/soloLogueados.js';
 import { usuariosService } from '../servicios/usuariosService.js';
 import { usuariosRepository } from '../repository/usuariosRepository.js';
 import { reestablecerView } from '../controllers/web/reestablecer.controller.js';
@@ -53,7 +53,7 @@ sessionsRouter.get('/current',soloLogueados,profileView)
 
 sessionsRouter.get('/reestablecer',reestablecerView)
 
-sessionsRouter.get('/login',sinLoguear,sesionesLoginController)
+sessionsRouter.get('/login',sesionesLoginController)
 
 // login con github. esto es lo nuevo que se agrega
 sessionsRouter.get('/github', autenticacionPorGithub)
