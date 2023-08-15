@@ -1,13 +1,7 @@
-import { User } from "../../entidades/User.js";
-import { userManager } from "../../../public/dao/UserManager.js";
 import { usuariosService } from "../../servicios/usuariosService.js";
 import { hashear } from "../../utils/criptografia.js";
 import { carritosRepository } from "../../repository/carritosRepository.js";
-import { Cart } from "../../entidades/Carts.js";
-import {
-    privateDecrypt,
-    randomUUID
-} from 'crypto'
+
 import { usuariosRepository } from "../../repository/usuariosRepository.js";
 
 export async function postAUsuarios(req,res,next){

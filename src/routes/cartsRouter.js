@@ -1,16 +1,9 @@
 import express, {
-    // @ts-ignore
-    json,
     Router
 } from 'express';
 
 // @ts-ignore
 import util from 'node:util'
-
-// @ts-ignore
-import { engine } from 'express-handlebars'
-// @ts-ignore
-import { cartsDB } from '../../public/dao/models/schemaCarts.js';
 
 // @ts-ignore
 import { carritosRepository } from '../repository/carritosRepository.js';

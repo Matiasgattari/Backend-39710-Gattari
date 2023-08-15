@@ -1,8 +1,10 @@
 import mongoose from 'mongoose';
 
 import assert from 'node:assert'
-import { cartManager } from '../../public/dao/CartManager.js'
-import { productManager } from '../../public/dao/ProductManager.js';
+// import { cartManager } from '../../public/dao/CartManager.js'
+import { cartManager } from '../../src/dao/CartManager.js'
+// import { productManager } from '../../public/dao/ProductManager.js';
+import { productManager } from '../../src/dao/ProductManager.js';
 import { productosService } from '../../src/servicios/productosService.js';
 import { json } from 'express';
 import { log } from 'node:console';

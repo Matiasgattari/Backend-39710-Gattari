@@ -6,10 +6,6 @@ import { Strategy as GithubStrategy } from 'passport-github2'
 //import bcrypt
 import { hashear, validarQueSeanIguales } from '../utils/criptografia.js'
 
-//Daos
-import { usuarioModel } from '../../public/dao/models/schemaUsuarios.js'
-import {User} from '../entidades/User.js'
-
 //CFG
 import { githubCallbackUrl, githubClientSecret, githubClienteId } from '../config/auth.config.js'
 

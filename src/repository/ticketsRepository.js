@@ -1,4 +1,5 @@
-import { ticketManager } from "../../public/dao/ticketManager.js"
+// import { ticketManager } from "../../public/dao/ticketManager.js"
+import { ticketManager } from "../../src/dao/ticketManager.js"
 import { winstonLogger } from "../utils/winstonLogger.js"
 
 class TicketsRepository {

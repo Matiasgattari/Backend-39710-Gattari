@@ -1,5 +1,6 @@
 import express, {Router} from 'express';
-import { productsDB } from '../../public/dao/models/schemaProducts.js';
+// import { productsDB } from '../../public/dao/models/schemaProducts.js';
+import { productsDB } from '../../src/dao/models/schemaProducts.js';
 import util from 'node:util'
 // export const productManager = new ProductManager('./productos.txt');
 import { Server as SocketIOServer } from 'socket.io'

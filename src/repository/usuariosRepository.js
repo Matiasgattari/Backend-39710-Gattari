@@ -1,4 +1,5 @@
-import { userManager } from "../../public/dao/UserManager.js"
+// import { userManager } from "../../public/dao/UserManager.js"
+import { userManager } from "../../src/dao/UserManager.js"
 import { winstonLogger } from "../utils/winstonLogger.js"
 
 class UsuariosRepository {

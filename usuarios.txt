@@ -34,5 +34,23 @@
       }
     ],
     "last_connection": "8/15/2023, 1:28:42 PM"
+  },
+  {
+    "_id": "64db858b048c9554fcff0073",
+    "email": "salta@lalinda.com",
+    "password": "$2b$10$C3LngJE5k1H7qWwkfRyfsO0Ld9qWeOLjPGNnTjJ4WyPD.QN/7bA.i",
+    "first_name": "salta",
+    "last_name": "lalinda",
+    "age": 22,
+    "rol": "Premium",
+    "cart": "64db858a048c9554fcff0071",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64db858b048c9554fcff0074"
+      }
+    ],
+    "last_connection": "15/8/2023, 11:02:51"
   }
 ]

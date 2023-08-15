@@ -2,7 +2,7 @@
   {
     "_id": "64d937fb8bfadd4baaaf8e40",
     "id": "1316515a-acdc-4a51-b809-e03b110b7734",
-    "quantity": 2,
+    "quantity": 3,
     "products": [
       {
         "productID": {
@@ -20,12 +20,35 @@
         },
         "quantity": 1,
         "_id": "64db823a94562fbf475d2035"
+      },
+      {
+        "productID": {
+          "_id": "64db85b0048c9554fcff007d",
+          "title": "chimchar",
+          "description": "pokemon fuego",
+          "price": 22000,
+          "thumbnail": "chimchar.jpg",
+          "stock": 14,
+          "code": "123-ddd-356",
+          "category": "inicial",
+          "status": true,
+          "id": "f2e0b2a4-95e1-4cdc-81dd-21fb6df08d75",
+          "owner": "lea.mg90@gmail.com"
+        },
+        "quantity": 1,
+        "_id": "64db85b8048c9554fcff0088"
       }
     ]
   },
   {
     "_id": "64db7d8ac6e23ce7bc4e63b9",
     "id": "62345f09-129e-49a6-9abe-e2591b24da49",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64db858a048c9554fcff0071",
+    "id": "eb3529df-a1e8-4d0e-90f0-e9a5b596e1f0",
     "quantity": 0,
     "products": []
   }

@@ -50,5 +50,18 @@
     "status": true,
     "id": "adc92ce8-c6bd-4154-b868-473ad49fad4e",
     "owner": "lea.mg90@gmail.com"
+  },
+  {
+    "_id": "64db85b0048c9554fcff007d",
+    "title": "chimchar",
+    "description": "pokemon fuego",
+    "price": 22000,
+    "thumbnail": "chimchar.jpg",
+    "stock": 14,
+    "code": "123-ddd-356",
+    "category": "inicial",
+    "status": true,
+    "id": "f2e0b2a4-95e1-4cdc-81dd-21fb6df08d75",
+    "owner": "lea.mg90@gmail.com"
   }
 ]

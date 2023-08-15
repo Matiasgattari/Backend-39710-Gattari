@@ -1,4 +1,3 @@
-import { ticketManager } from "../../public/dao/ticketManager.js"
 import { Ticket } from "../entidades/Tickets.js"
 
 

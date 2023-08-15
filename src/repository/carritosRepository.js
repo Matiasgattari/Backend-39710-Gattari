@@ -1,4 +1,5 @@
-import { cartManager } from "../../public/dao/CartManager.js"
+// import { cartManager } from "../../public/dao/CartManager.js"
+import { cartManager } from "../dao/CartManager.js"
 import { winstonLogger } from "../utils/winstonLogger.js"
 
 //repositorio tiene operaciones de base de datos, guardar buscar modificar y borrar

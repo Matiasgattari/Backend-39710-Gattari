@@ -1,4 +1,3 @@
-import { userManager } from "../../public/dao/UserManager.js"
 import { User } from "../entidades/User.js"
 
 

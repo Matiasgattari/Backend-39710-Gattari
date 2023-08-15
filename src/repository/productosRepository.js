@@ -1,4 +1,5 @@
-import { productManager } from "../../public/dao/ProductManager.js"
+// import { productManager } from "../../public/dao/ProductManager.js"
+import { productManager } from "../../src/dao/ProductManager.js"
 import { productosService } from "../servicios/productosService.js"
 import { winstonLogger } from "../utils/winstonLogger.js"
 

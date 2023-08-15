@@ -1,13 +1,8 @@
 import express, {Router} from 'express';
-import { Product, productManager } from '../../public/dao/ProductManager.js';
-import { randomUUID } from 'crypto'
-import { productsDB } from '../../public/dao/models/schemaProducts.js';
-import util from 'node:util'
-import { autenticacion } from '../middlewares/autenticacion.js';
+
 import { profileView } from '../controllers/web/perfil.controller.js';
 import { registroView } from '../controllers/web/registro.controller.js';
 import session from '../middlewares/session.js';
-import { userManager } from '../../public/dao/UserManager.js';
 
 
 
