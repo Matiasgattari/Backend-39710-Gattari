@@ -22,19 +22,7 @@
         "_id": "64db823a94562fbf475d2035"
       },
       {
-        "productID": {
-          "_id": "64db85b0048c9554fcff007d",
-          "title": "chimchar",
-          "description": "pokemon fuego",
-          "price": 22000,
-          "thumbnail": "chimchar.jpg",
-          "stock": 14,
-          "code": "123-ddd-356",
-          "category": "inicial",
-          "status": true,
-          "id": "f2e0b2a4-95e1-4cdc-81dd-21fb6df08d75",
-          "owner": "lea.mg90@gmail.com"
-        },
+        "productID": null,
         "quantity": 1,
         "_id": "64db85b8048c9554fcff0088"
       }
@@ -51,5 +39,47 @@
     "id": "eb3529df-a1e8-4d0e-90f0-e9a5b596e1f0",
     "quantity": 0,
     "products": []
+  },
+  {
+    "_id": "64db8e51e66b8e5b3a6590b5",
+    "id": "e0a96fa1-8b81-490e-a142-7e42b9c33546",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64db8e53e66b8e5b3a6590bd",
+    "id": "258f6917-390c-4fb2-bb03-48454a4f1f72",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64dd9910e09e2fb3d31aa327",
+    "id": "39e2cf52-178a-4189-bf76-6d9d962a9729",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64dd9b9aa5f6598581ac2da8",
+    "id": "e6abc35a-edfc-4d83-8501-ef1437fd9cb4",
+    "quantity": 1,
+    "products": [
+      {
+        "productID": {
+          "_id": "64db8e79e66b8e5b3a6590c6",
+          "title": "vulpix",
+          "description": "pokemon fuego",
+          "price": 14000,
+          "thumbnail": "vulpix.jpg",
+          "stock": 19,
+          "code": "289-asd-4235",
+          "category": "zorro",
+          "status": true,
+          "id": "be47c30f-1a11-4f51-93d5-5a07e076ebc7",
+          "owner": "maria@maria.com"
+        },
+        "quantity": 1,
+        "_id": "64dd9ba5a5f6598581ac2db5"
+      }
+    ]
   }
 ]

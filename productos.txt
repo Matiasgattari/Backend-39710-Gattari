@@ -52,16 +52,16 @@
     "owner": "lea.mg90@gmail.com"
   },
   {
-    "_id": "64db85b0048c9554fcff007d",
-    "title": "chimchar",
+    "_id": "64db8e79e66b8e5b3a6590c6",
+    "title": "vulpix",
     "description": "pokemon fuego",
-    "price": 22000,
-    "thumbnail": "chimchar.jpg",
-    "stock": 14,
-    "code": "123-ddd-356",
-    "category": "inicial",
+    "price": 14000,
+    "thumbnail": "vulpix.jpg",
+    "stock": 18,
+    "code": "289-asd-4235",
+    "category": "zorro",
     "status": true,
-    "id": "f2e0b2a4-95e1-4cdc-81dd-21fb6df08d75",
-    "owner": "lea.mg90@gmail.com"
+    "id": "be47c30f-1a11-4f51-93d5-5a07e076ebc7",
+    "owner": "maria@maria.com"
   }
 ]

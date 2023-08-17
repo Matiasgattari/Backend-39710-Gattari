@@ -88,5 +88,23 @@
       }
     ],
     "last_connection": "8/17/2023, 3:50:41 AM"
+  },
+  {
+    "_id": "64dd9b9aa5f6598581ac2daa",
+    "email": "admin@admin.com",
+    "password": "$2b$10$rLE3byQjYYd0lMzQBR/DdeFXk6XmAF.jX7KdzDgSnT5C10UcOj3eC",
+    "first_name": "admin",
+    "last_name": "admin",
+    "age": 33,
+    "rol": "Admin",
+    "cart": "64dd9b9aa5f6598581ac2da8",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64dd9b9aa5f6598581ac2dab"
+      }
+    ],
+    "last_connection": "17/8/2023, 1:01:30"
   }
 ]
