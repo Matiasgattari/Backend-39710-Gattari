@@ -58,7 +58,7 @@ app.use(loggerPeticion)
 
 app.use('/api/products',soloLogueados, productsRouter)
 app.use('/api/carts',soloLogueados, cartsRouter)
-app.use('api/tickets',soloLogueados, ticketsRouter)
+app.use('/api/tickets',soloLogueados, ticketsRouter)
 app.use('/api/sessions', sessionsRouter)
 app.use('/api/users', userRouter)
 app.use('/api/test', testsRouter)

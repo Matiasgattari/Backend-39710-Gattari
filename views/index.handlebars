@@ -1,12 +1,46 @@
 <h1>{{encabezado}} </h1>
 
 <h3>Bienvenido al servidor. ingrese a "/api/sessions/" para poder registrarse o iniciar sesion.</h3>
-<button onclick="sesiones()">Administrador de sesiones</button>
+<button onclick="sesiones()">Administrador de sesiones</button><br>
+<button onclick="chat()">Chat de usuarios</button><br>
+<button onclick="products()">Endpoint /api/products</button><br>
+<button onclick="users()">Endpoint /api/users</button><br>
+<button onclick="carts()">Endpoint /api/carts</button><br>
+<button onclick="tickets()">Endpoint /api/tickets</button><br>
+<label for="productosAdmin">Para cargar o eliminar productos</label>
+<button name="productosAdmin" onclick="productosAdmin()">Endpoint /api/products/admin</button><br>
+
+
+
 
 <script> 
-function sesiones(){
     const url = window.location.origin
+function sesiones(){
     const url2 = url + `/api/sessions/` 
+    window.location.href = url2
+}
+function chat(){
+    const url2 = url + `/chat/` 
+    window.location.href = url2
+}
+function products(){
+    const url2 = url + `/api/products/` 
+    window.location.href = url2
+}
+function users(){
+    const url2 = url + `/api/users/` 
+    window.location.href = url2
+}
+function tickets(){
+    const url2 = url + `/api/tickets/` 
+    window.location.href = url2
+}
+function productosAdmin(){
+    const url2 = url + `/api/products/admin/` 
+    window.location.href = url2
+}
+function carts(){
+    const url2 = url + `/api/carts/` 
     window.location.href = url2
 }
 </script>

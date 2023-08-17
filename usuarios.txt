@@ -24,7 +24,7 @@
     "first_name": "cafe",
     "last_name": "cafe",
     "age": 22,
-    "rol": "User",
+    "rol": "Premium",
     "cart": "64db7d8ac6e23ce7bc4e63b9",
     "documents": [
       {
@@ -52,5 +52,41 @@
       }
     ],
     "last_connection": "15/8/2023, 11:02:51"
+  },
+  {
+    "_id": "64db8e51e66b8e5b3a6590b7",
+    "email": "maria@maria.com",
+    "password": "$2b$10$0I1.jsyB3W1.PYG.C.ntNOd6/1IL0qMR3ZROtGXGf5gNX.QmjK/2W",
+    "first_name": "maria",
+    "last_name": "maria",
+    "age": 22,
+    "rol": "Admin",
+    "cart": "64db8e51e66b8e5b3a6590b5",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64db8e51e66b8e5b3a6590b8"
+      }
+    ],
+    "last_connection": "8/15/2023, 2:40:17 PM"
+  },
+  {
+    "_id": "64dd9911e09e2fb3d31aa329",
+    "email": "user@user.com",
+    "password": "$2b$10$rPCqtqJSf8UMOFr6Sh.R8u/gdJjon0pcv78KrEM6D66eK8mq6uJSe",
+    "first_name": "user",
+    "last_name": "user",
+    "age": 33,
+    "rol": "User",
+    "cart": "64dd9910e09e2fb3d31aa327",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64dd9911e09e2fb3d31aa32a"
+      }
+    ],
+    "last_connection": "8/17/2023, 3:50:41 AM"
   }
 ]
