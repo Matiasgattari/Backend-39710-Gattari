@@ -52,5 +52,41 @@
       }
     ],
     "last_connection": "8/21/2023, 11:25:24 PM"
+  },
+  {
+    "_id": "64e3f84d13a2442029c6567f",
+    "email": "g@g.com",
+    "password": "$2b$10$WUADx4IcCtILqm.64mQFLurXfVlD7GThSZzYtFcsNPWzzgahO.YK.",
+    "first_name": "g",
+    "last_name": "g",
+    "age": 4,
+    "rol": "User",
+    "cart": "64e3f84d13a2442029c6567d",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64e3f84d13a2442029c65680"
+      }
+    ],
+    "last_connection": "8/21/2023, 11:50:37 PM"
+  },
+  {
+    "_id": "64e3f908b44f3769eb100bf1",
+    "email": "user@user.com",
+    "password": "$2b$10$IjnIp1Q4WzWz9JaD9QkfEuSbGw6yJqiOFD3ZskdgFP153hNAooUQC",
+    "first_name": "user",
+    "last_name": "user",
+    "age": 33,
+    "rol": "User",
+    "cart": "64e3f908b44f3769eb100bef",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64e3f908b44f3769eb100bf2"
+      }
+    ],
+    "last_connection": "21/8/2023, 20:53:44"
   }
 ]

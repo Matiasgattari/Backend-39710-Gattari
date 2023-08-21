@@ -1,67 +1,15 @@
 [
   {
-    "_id": "64b6df98a8933c90bbc33556",
+    "_id": "64e3f2071ad743e08c1d93ff",
     "title": "bulbasaur",
     "description": "pokemon planta",
-    "price": 10000,
-    "thumbnail": "bulbasaur.jpg",
-    "stock": 10,
-    "code": "123-456-789",
-    "category": "inicial",
-    "status": true,
-    "id": "8b059f4f-8bfd-4ff2-ac4e-df810e2ed6a5",
-    "owner": "lea.mg90@gmail.com"
-  },
-  {
-    "_id": "64b6dfc3a8933c90bbc3355d",
-    "title": "charmander",
-    "description": "pokemon fuego",
     "price": 15000,
-    "thumbnail": "charmander.jpg",
-    "stock": 15,
-    "code": "222-333-444",
-    "category": "inicial",
+    "thumbnail": "bulbasaur.jpeg",
+    "stock": 19,
+    "code": "poke-bul",
+    "category": "planta veneno",
     "status": true,
-    "id": "a0f0ecc2-b548-4072-8976-38f8c7f08c12",
+    "id": "821a30be-1900-4b0b-8a32-969738bcc1f9",
     "owner": "lea.mg90@gmail.com"
-  },
-  {
-    "_id": "64b6f1a283fff8f5e6744a0a",
-    "title": "squirtle",
-    "description": "pokemon agua",
-    "price": 15000,
-    "thumbnail": "squirtle.jpg",
-    "stock": 10,
-    "code": "122-363-898",
-    "category": "inicial",
-    "status": true,
-    "id": "c766cb48-d4f8-4896-855b-2b0a922f2f42",
-    "owner": "lea.mg90@gmail.com"
-  },
-  {
-    "_id": "64db821494562fbf475d1ff6",
-    "title": "lapras",
-    "description": "pokemon montura",
-    "price": 150000,
-    "thumbnail": "lapras.jpg",
-    "stock": 20,
-    "code": "123-123-asdas",
-    "category": "montura",
-    "status": true,
-    "id": "adc92ce8-c6bd-4154-b868-473ad49fad4e",
-    "owner": "lea.mg90@gmail.com"
-  },
-  {
-    "_id": "64db8e79e66b8e5b3a6590c6",
-    "title": "vulpix",
-    "description": "pokemon fuego",
-    "price": 14000,
-    "thumbnail": "vulpix.jpg",
-    "stock": 15,
-    "code": "289-asd-4235",
-    "category": "zorro",
-    "status": true,
-    "id": "be47c30f-1a11-4f51-93d5-5a07e076ebc7",
-    "owner": "maria@maria.com"
   }
 ]
