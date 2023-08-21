@@ -11,18 +11,21 @@
 <form id="formReestablecer">
   <button type="submit" id="btn_reestablecer_profile">Reestablecer Contraseña</button>
 </form>
- 
- <button type="submit" id="btn_cargar_JSON" >Cargar archivo JSON</button>
+ <button type="submit" id="btn_cargar_JSON" >Cargar archivo JSON</button><br>
 
+<label for="productosAdmin">Ver los productos en stock:</label>
+<button name="productosAdmin" onclick='productos("{{user.rol}}")'>Endpoint para trabajar con los productos</button><br>
 
-{{!-- {{#if user.rol=="User"}}
-
-<p class="text-danger">Cambiar a usuario Premium</p>
-<button type="submit" id="btn_cambiar_premium" >Cambiar a premium</button>
-
-{{/if}}
- --}}
-
-
+<script>
+function productos(rol){
+  const url = window.location.origin
+ if(rol=="Premium" ||rol=="Admin"){
+    const url2 = url + `/api/products/admin/` 
+    window.location.href = url2}else {
+      const url2 = url + `/home/` 
+    window.location.href = url2
+    }
+}
+</script>
 
 <script src="/js/profile.js"> </script>

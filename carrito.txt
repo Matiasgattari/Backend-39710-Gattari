@@ -1,34 +1,5 @@
 [
   {
-    "_id": "64d937fb8bfadd4baaaf8e40",
-    "id": "1316515a-acdc-4a51-b809-e03b110b7734",
-    "quantity": 3,
-    "products": [
-      {
-        "productID": {
-          "_id": "64db821494562fbf475d1ff6",
-          "title": "lapras",
-          "description": "pokemon montura",
-          "price": 150000,
-          "thumbnail": "lapras.jpg",
-          "stock": 21,
-          "code": "123-123-asdas",
-          "category": "montura",
-          "status": true,
-          "id": "adc92ce8-c6bd-4154-b868-473ad49fad4e",
-          "owner": "lea.mg90@gmail.com"
-        },
-        "quantity": 1,
-        "_id": "64db823a94562fbf475d2035"
-      },
-      {
-        "productID": null,
-        "quantity": 1,
-        "_id": "64db85b8048c9554fcff0088"
-      }
-    ]
-  },
-  {
     "_id": "64db7d8ac6e23ce7bc4e63b9",
     "id": "62345f09-129e-49a6-9abe-e2591b24da49",
     "quantity": 0,
@@ -61,8 +32,187 @@
   {
     "_id": "64dd9b9aa5f6598581ac2da8",
     "id": "e6abc35a-edfc-4d83-8501-ef1437fd9cb4",
-    "quantity": 1,
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e25e52e734e24764efa7b0",
+    "id": "a9cea79b-dbf8-425c-9453-55252001140a",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3787af702bbc52097e503",
+    "id": "d8ad1258-3b8a-4083-95bf-b3e2b7ba2a5d",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3787ff702bbc52097e50a",
+    "id": "609bdac7-794b-4cb9-9b18-9ec40a4991f5",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e37881f702bbc52097e511",
+    "id": "94af9f62-5ec4-4ee8-a373-f29d477a5a06",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e37898f702bbc52097e518",
+    "id": "baf830d5-8478-40cf-ad52-7357f096c8a7",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378daf702bbc52097e52b",
+    "id": "7b478de7-6414-4d81-8ba9-2eaf82052c2d",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378dcf702bbc52097e534",
+    "id": "716b9484-45bf-4e31-9a48-ecbeefd4e505",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378dcf702bbc52097e53c",
+    "id": "ce1f1a99-a0d9-46c1-b9f7-74dcb653a495",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378dcf702bbc52097e53e",
+    "id": "c79aeca0-a10e-4c6d-bc8e-17721e2affd8",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378ddf702bbc52097e54b",
+    "id": "974647b9-045b-42a2-852f-d961f7dbaed8",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378ddf702bbc52097e54d",
+    "id": "de9c05b7-4744-4f39-9055-a55793e34722",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378def702bbc52097e55c",
+    "id": "76fb4353-fb28-4cc4-80f9-5a1c651b85c6",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378def702bbc52097e561",
+    "id": "9b974ffa-cb0d-45d2-a825-c933848c5ad3",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378def702bbc52097e55f",
+    "id": "2274a25d-a55f-43ca-8f43-61b4ca18c2cc",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378dff702bbc52097e56c",
+    "id": "025b4578-43d9-4aee-90a6-ebd7bfae0155",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e378e0f702bbc52097e571",
+    "id": "8256b7c9-0c35-4cf2-a491-e2ef8ea2d404",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3a686bb50d992088ae294",
+    "id": "6e46c88a-b321-4aae-9588-d235f3bfb8dd",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3af6bc31a9263986c65b6",
+    "id": "6a8321fb-05ce-472b-ad41-7346f9b8c787",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3af6cc31a9263986c65be",
+    "id": "85e57c9c-c0e1-4772-93f6-08dc0c0863a6",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3b732b714158952a056f0",
+    "id": "75720cb1-ad81-4847-8814-a9f1453b1017",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3b7d00c039e3cdf18ceb4",
+    "id": "c9b66427-6b2f-45fc-ac7a-17818cb8f953",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3c0c348ad1d87c18b2e56",
+    "id": "dce4795c-3430-4dad-b79d-8ee83662ff89",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3c0d848ad1d87c18b2e5f",
+    "id": "7fc2e6e7-1de0-433b-86d1-855b328a8c51",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3c1de63e8f8b5f92eda0c",
+    "id": "eb0317b0-5fcb-4612-a3de-6d7adf696831",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3c1f763e8f8b5f92eda15",
+    "id": "42675c98-a657-42c8-be87-98b91714fe4c",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3c29f3c4d7990972ca5dd",
+    "id": "310f92c4-d094-4d90-8bae-913bd95db6e2",
+    "quantity": 0,
+    "products": []
+  },
+  {
+    "_id": "64e3c45e22a640bd0084e6c8",
+    "id": "34f491df-849f-44f5-b73b-8182d637cec7",
+    "quantity": 4,
     "products": [
+      {
+        "productID": {
+          "_id": "64b6f1a283fff8f5e6744a0a",
+          "title": "squirtle",
+          "description": "pokemon agua",
+          "price": 15000,
+          "thumbnail": "squirtle.jpg",
+          "stock": 11,
+          "code": "122-363-898",
+          "category": "inicial",
+          "status": true,
+          "id": "c766cb48-d4f8-4896-855b-2b0a922f2f42",
+          "owner": "lea.mg90@gmail.com"
+        },
+        "quantity": 1,
+        "_id": "64e3c79f7d3b0c489db8f62f"
+      },
       {
         "productID": {
           "_id": "64db8e79e66b8e5b3a6590c6",
@@ -70,15 +220,32 @@
           "description": "pokemon fuego",
           "price": 14000,
           "thumbnail": "vulpix.jpg",
-          "stock": 19,
+          "stock": 17,
           "code": "289-asd-4235",
           "category": "zorro",
           "status": true,
           "id": "be47c30f-1a11-4f51-93d5-5a07e076ebc7",
           "owner": "maria@maria.com"
         },
+        "quantity": 2,
+        "_id": "64e3c8179385974f10e69d4a"
+      },
+      {
+        "productID": {
+          "_id": "64b6df98a8933c90bbc33556",
+          "title": "bulbasaur",
+          "description": "pokemon planta",
+          "price": 10000,
+          "thumbnail": "bulbasaur.jpg",
+          "stock": 12,
+          "code": "123-456-789",
+          "category": "inicial",
+          "status": true,
+          "id": "8b059f4f-8bfd-4ff2-ac4e-df810e2ed6a5",
+          "owner": "lea.mg90@gmail.com"
+        },
         "quantity": 1,
-        "_id": "64dd9ba5a5f6598581ac2db5"
+        "_id": "64e3c86a7d482f92c153e444"
       }
     ]
   }

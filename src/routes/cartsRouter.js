@@ -2,6 +2,10 @@ import express, {
     Router
 } from 'express';
 
+
+import nodemailer from "nodemailer";
+
+
 // @ts-ignore
 import util from 'node:util'
 
@@ -14,6 +18,8 @@ import { passportInitialize, passportSession } from '../middlewares/passport.js'
 import session from '../middlewares/session.js';
 import { ticketsService } from '../servicios/ticketsService.js';
 import { productosRepository } from '../repository/productosRepository.js';
+import { winstonLogger } from '../utils/winstonLogger.js';
+import { purchaseController } from '../controllers/web/purchaseController.js';
 
 export const cartsRouter = Router()
 
@@ -168,60 +174,4 @@ cartsRouter.delete('/:cid/products/:pid',soloLogueados,async( req,res)=>{
     }
     } )
 
-cartsRouter.get('/:cid/purchase',soloLogueados, async(req,res)=>{
-    //datos Usuario
-    const usuario = req.user
-    // @ts-ignore
-    const email = usuario['email']
-    //id del carrito
-    const carritoID= req.params['cid']
-
-    //logica para calculo del monto del ticket
-    const carritoFiltrado = await carritosRepository.buscarCarritoPorId(carritoID)
-    
-    const arrayPreciosProductosConStock = []
-    const arrayProductosSinStock= []
-    
-    // @ts-ignore
-    const montoCarrito = carritoFiltrado['products'].forEach(async function (element,indice) {
-            // @ts-ignore compruebo valido stock sobre cantidad para vender
-            if(element.productID['stock']>element.quantity){
-                // @ts-ignore
-                arrayPreciosProductosConStock.push(element.productID['price']*element.quantity);
-                // @ts-ignore
-                const productoBuscado = await productosRepository.buscarProductoPorId(element.productID['_id'])
-                // @ts-ignore
-                productoBuscado.stock =productoBuscado.stock - element.quantity
-                // @ts-ignore
-                const productoModificado = await productosRepository.modificarProducto(element.productID['_id'],productoBuscado)
-            } else { arrayProductosSinStock.push(element) }
-        });
-        
-    const sumaCantidadesSinStock = arrayProductosSinStock.reduce(function(acumulador, producto) { return acumulador + producto.quantity }, 0)
-
-    const valorInicial = 0;
-    const monto = arrayPreciosProductosConStock.reduce((accumulator, currentValue) => accumulator + currentValue, valorInicial)
-
-    const nuevoTicket = {email:email, monto:monto, cart:carritoID}
-    const ticket = await ticketsService.crearTicket(nuevoTicket)
-
-    await ticketsRepository.crearTicket(ticket)
-
-    //Vaciado del carrito:
-    // @ts-ignore
-    const carritoNuevo = {_id:carritoID,id:carritoFiltrado['id'],quantity:sumaCantidadesSinStock, products:arrayProductosSinStock}
-    
-
-    const carritoFinal = await carritosRepository.modificarCarrito(carritoID,carritoNuevo)
-    const carritoString = carritoFinal['_id']
-    
-    res.render('finalizarTicket', {
-        titulo: 'Tickets',
-        encabezado: 'Ticket finalizado correctamente',
-        carrito: carritoFinal['_id'],
-        productos: carritoFinal['products'],
-        hayProductos:carritoFinal['products'].length>0,
-    })
-
-
-})
+cartsRouter.get('/:cid/purchase',soloLogueados, purchaseController)

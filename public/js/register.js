@@ -44,7 +44,7 @@ if(!validarMail(input_email.value)){alert('El email debe tener formato usuario@s
         email: input_email.value,
         age: input_age.value,
         password: input_password.value,
-        rol: input_rol.value,
+        rol: input_rol.value||"User",
         // cart: input_cart.value,
       }
 

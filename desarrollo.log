@@ -275,3 +275,18 @@
 {"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
 {"level":"fatal","message":"Error: ERROR_DE_PERMISOS"}
 {"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 18:\n...n>{{#if user.rol == \"Admin\" || user.r\n--------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 18:\n...n>{{#if user.rol == \"Admin\" || user.r\n--------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Missing helper: \"eq\""}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 16:\n...n>{{#if (user.rol === \"Admin\")}}<labe\n---------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
+{"level":"fatal","message":"******************************* Informacion de error ****************************************************** "}
+{"level":"fatal","message":"Error: Parse error on line 16:\n...n>{{#if (user.rol === \"Admin\")}}<labe\n---------------------^\nExpecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'EQUALS'"}
+{"level":"fatal","message":"*********************************************************************************************************** "}
