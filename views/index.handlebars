@@ -1,13 +1,15 @@
 <h1>{{encabezado}} </h1>
 
-<h3>Bienvenido al servidor. ingrese a "/api/sessions/" para poder registrarse o iniciar sesion.</h3>
-<button onclick="sesiones()">Administrador de sesiones</button><br>
+<h3>Bienvenido al servidor. ingrese a "/api/sessions/" para poder registrarse o iniciar sesion.</h3><br>
+<h4>Inicie sesion o Registrese aquí</h4>
+<button onclick="sesiones()">Endpoint /api/sessions</button><br><br>
 <button onclick="chat()">Chat de usuarios</button><br>
 <button onclick="products()">Endpoint /api/products</button><br>
 <button onclick="users()">Endpoint /api/users</button><br>
 <button onclick="carts()">Endpoint /api/carts</button><br>
 <button onclick="tickets()">Endpoint /api/tickets</button><br>
-
+<br>
+<h3>A los siguientes endpoints, solo se le permitira el ingreso a usuarios REGRISTRADOS</h3>
 <label for="productosAdmin">Para cargar o eliminar productos (SOLO ADMIN y PREMIUM)</label>
 <button name="productosAdmin" onclick="productosAdmin()">Endpoint /api/products/admin</button><br>
 

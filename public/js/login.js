@@ -26,11 +26,7 @@ const response = await fetch('/api/users/login', {
     body: JSON.stringify(loginUsuario)
   });
   
-  if (!response.ok) {
-    throw new Error('SERVER-COMUNICATION-ERROR');
-  }
-
-  
+ 
   const usuarioLogeado = await response.json();
 
       if(response.ok) {
@@ -38,6 +34,9 @@ const response = await fetch('/api/users/login', {
         const url2 = url + "/api/sessions/current" //agrega el string al final
         window.location.href = url2
        
+      } else {
+        alert("Usuario o contraseña incorrectos, intente nuevamente.")
+        location.reload()
       }
     }
 

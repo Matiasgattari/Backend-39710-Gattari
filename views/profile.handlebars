@@ -10,11 +10,14 @@
 </form>
 <form id="formReestablecer">
   <button type="submit" id="btn_reestablecer_profile">Reestablecer Contraseña</button>
-</form>
- <button type="submit" id="btn_cargar_JSON" >Cargar archivo JSON</button><br>
+</form><br>
 
-<label for="productosAdmin">Ver los productos en stock:</label>
-<button name="productosAdmin" onclick='productos("{{user.rol}}")'>Endpoint para trabajar con los productos</button><br>
+
+<h3>Cargar archivo JSON o imágenes para tus productos</h3>
+<button name="cargar" type="submit" id="btn_cargar_JSON">Cargar</button><br><br>
+
+<h3>Ver los productos en stock</h3>
+<button name="productosAdmin" onclick='productos("{{user.rol}}")'>Productos</button><br>
 
 <script>
 function productos(rol){

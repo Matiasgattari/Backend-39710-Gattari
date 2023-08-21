@@ -1,9 +1,17 @@
   <h1>Enviar archivo JSON</h1>
-  <p>Selecciona un archivo .json:</p>
-  <!-- Crear un formulario con la ruta y el tipo de codificación -->
-  <form action='/api/users/premium/{{user}}/documents' method="post" enctype="multipart/form-data">
-    <!-- Crear un input de tipo file con el nombre y el filtro -->
-    <input type="file" name="archivo" accept="application/json">
-    <!-- Crear un botón de tipo submit para enviar el formulario -->
+  <h3>usuario: {{user}}</h3>
+  <p>Selecciona un archivo .json o una imagen .jpeg para cargar:</p>
+  
+  <form action='/api/users/premium/{{user}}/documents' method="post" enctype="multipart/form-data"><br>
+    <label for="archivo">Seleccione archivo .json</label>
+    <input type="file" name="archivo" accept=".json"><br><br>
+    <button type="submit">Enviar</button>
+  </form><br><br>
+  <form action='/api/users/premium/{{user}}/documents' method="post" enctype="multipart/form-data"><br>
+    <label for="archivo">Seleccione archivo de imagen .jpeg</label>
+    <input type="file" name="archivo" accept="image/jpeg"><br>
     <button type="submit">Enviar</button>
   </form>
+
+
+

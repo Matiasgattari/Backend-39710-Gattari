@@ -5,7 +5,7 @@
     "description": "pokemon planta",
     "price": 10000,
     "thumbnail": "bulbasaur.jpg",
-    "stock": 11,
+    "stock": 10,
     "code": "123-456-789",
     "category": "inicial",
     "status": true,

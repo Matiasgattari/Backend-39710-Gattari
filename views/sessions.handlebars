@@ -1,29 +1,31 @@
-<h1>HOLA, elige una opcion para continuar</h1>
+<h1>Bienvenido, elige una opcion para continuar</h1>
 
-    <p>REGISTRARSE </p> 
-    
-    <button onclick="register()">ir</button>
+  <h3>Registrate aquí</h3>
+  <button onclick="register()">ir</button>
 
-    <p>INICIAR SESION</p>
+  <h3>Ya tenes cuenta? inicia sesión aquí</h3>
+  <button onclick="login()">ir</button><br>
     
-    <button onclick="login()">ir</button><br>
+  <h3>Ya tenes tu sesión iniciada?, mira tu perfil de usuario aquí</h3>
+  <button onclick="current()">ir</button><br>
     
-
 
 <script>
- 
-  
+   
  function register() {
      const urlOrigin = window.location.origin; //obtiene la URL actual
      const urlOrigin2 = urlOrigin + `/api/sessions/register` //agrega el string al final
      window.location = urlOrigin2
     
   }
-
  function login() {
-
     const urlOrigin = window.location.origin; //obtiene la URL actual
     const urlOrigin2 = urlOrigin + `/api/sessions/login` //agrega el string al final
+    window.location = urlOrigin2
+  }
+ function current() {
+    const urlOrigin = window.location.origin; //obtiene la URL actual
+    const urlOrigin2 = urlOrigin + `/api/sessions/current` //agrega el string al final
     window.location = urlOrigin2
   }
 

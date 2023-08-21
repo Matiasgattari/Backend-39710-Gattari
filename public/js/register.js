@@ -62,20 +62,19 @@ const response = await fetch('/api/users', {
     body: JSON.stringify(datosUsuario)
   });
   
-  if (!response.ok) {
-    throw new Error('NOT-FOUND');
-  }
-  
   const usuarioCreado = await response.json();
 
-if (response.ok) {
 
+  if(response.ok) {
+    
   const url = window.location.origin; //obtiene la URL actual
   const url2 = url + `/api/sessions/current` //agrega el string al final
   window.location.href = url2
-}
-    }
+   
+  } else {
+    alert("Error, imposible crear usuario. Intente nuevamente.")
+    location.reload()
+  }
 
-
-  })
+ }})
 }

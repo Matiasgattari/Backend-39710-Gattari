@@ -32,13 +32,17 @@ userRouter.delete('/login', deleteSesiones)
 userRouter.post('/reestablecer',soloLogueados, reestablecerPost)
 
 //ruta para cargar archivos JSON desde el navegador
-userRouter.get('/premium/documents',soloPremium ,getMulterDocuments)
+userRouter.get('/premium/documents',soloLogueados,soloPremium ,getMulterDocuments)
 
 // Usar el middleware de multer en la ruta '/premium/:uid/documents'
-userRouter.post('/premium/:uid/documents',soloPremium, multerUpload.single('archivo'), (req, res) => {
+userRouter.post('/premium/:uid/documents',soloLogueados,soloPremium, multerUpload.single('archivo'), (req, res) => {
     // Acceder al archivo recibido a través de req.file
     let archivo = req.file;
-    res.json({message:`Archivo cargado correctamente bajo el nombre: ${req.file?.filename}, en la ruta ${req.file?.path}`});
+    res.render("infoArchivoMulter",{
+      nombre:archivo?.filename,
+      ruta:`/documents/${archivo?.filename}`,
+    })
+    // res.json({message:`Archivo cargado correctamente bajo el nombre: ${req.file?.filename}, en la ruta /documents/${req.file?.filename}`});
   });
 
 userRouter.get('/', soloLogueados,soloAdmin,async (req, res, next) => {

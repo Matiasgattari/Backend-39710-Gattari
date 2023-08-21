@@ -1,0 +1,21 @@
+  <h1>Carga exitosa</h1><br>
+  <h2>Nombre del archivo:</h2>
+  <h3>{{nombre}}</h3>
+  <h2>Ruta del archivo:</h2>
+  <h3>{{ruta}}</h3>
+  
+  <button onclick='ver("{{ruta}}")'>Ver</button>
+  <button onclick="volver()">Volver a carga de archivos</button>
+
+
+<script> 
+    const url = window.location.origin
+function ver(ruta){
+ const url2 = url + ruta 
+    window.location.href = url2
+}
+function volver(){
+    const url2 = url + `/api/users/premium/documents/` 
+    window.location.href = url2
+}
+</script>

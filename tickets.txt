@@ -166,5 +166,13 @@
     "monto": 53000,
     "cart": "64e3c45e22a640bd0084e6c8",
     "code": "c9caca96-7de0-45eb-bc59-7ad3e2f93843"
+  },
+  {
+    "_id": "64e3eaad114cd170eb7199e1",
+    "date": "21/8/2023",
+    "usuario": "j@j.com",
+    "monto": 10000,
+    "cart": "64e3e900e72179af784ccd94",
+    "code": "75abc9ea-35a3-44a7-982b-1406dd3fb221"
   }
 ]

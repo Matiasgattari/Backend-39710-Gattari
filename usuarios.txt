@@ -304,5 +304,41 @@
       }
     ],
     "last_connection": "21/8/2023, 17:09:03"
+  },
+  {
+    "_id": "64e3cfe9830ef9ff75c4f679",
+    "email": "premium@premium.com",
+    "password": "$2b$10$ig0OPPOSexO8h5seYomhl.RMJ8sp7crOW3odylLrLsYLyC3gYE19m",
+    "first_name": "premium",
+    "last_name": "premium",
+    "age": 33,
+    "rol": "Premium",
+    "cart": "64e3cfe9830ef9ff75c4f677",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64e3cfe9830ef9ff75c4f67a"
+      }
+    ],
+    "last_connection": "21/8/2023, 17:58:17"
+  },
+  {
+    "_id": "64e3e900e72179af784ccd96",
+    "email": "j@j.com",
+    "password": "$2b$10$tvvmJ664pCAtqxpXvGw7DOtHJSahCSf1RrTjC3gNhL4ORHgw8Sk/i",
+    "first_name": "j",
+    "last_name": "j",
+    "age": 33,
+    "rol": "Admin",
+    "cart": "64e3e900e72179af784ccd94",
+    "documents": [
+      {
+        "name": "",
+        "reference": "",
+        "_id": "64e3e900e72179af784ccd97"
+      }
+    ],
+    "last_connection": "21/8/2023, 19:45:20"
   }
 ]

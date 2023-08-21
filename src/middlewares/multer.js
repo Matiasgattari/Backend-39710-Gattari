@@ -15,14 +15,19 @@ const storage = multer.diskStorage({
 })
 
 // Agregar una función de filtro de archivos
-const fileFilter = function(req, file, cb) {
-  // Aceptar solo archivos .json
-  if (file.mimetype === 'application/json') {
-    cb(null, true);
+const fileFilter = function (req, file, cb) {
+  // Aceptar archivos .json y .jpg
+  if (file.mimetype === 'application/json'|| file.mimetype.includes('jpeg')) {
+      cb(null, true);
   } else {
-    cb(null, false);
+      cb(null, false);
   }
 };
 
+
 // Pasar la función de filtro de archivos como una opción
 export const multerUpload = multer({ storage, fileFilter })
+
+
+
+
