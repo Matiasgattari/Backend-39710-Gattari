@@ -1,344 +1,56 @@
 [
   {
-    "_id": "64db7d8ac6e23ce7bc4e63bb",
-    "email": "cafe@cafe.com",
-    "password": "$2b$10$nFa7OWFRcebX4FcLOaWjy.IEchcbVexGsJujlXN4WZX/NI40UniYi",
-    "first_name": "cafe",
-    "last_name": "cafe",
-    "age": 22,
-    "rol": "Premium",
-    "cart": "64db7d8ac6e23ce7bc4e63b9",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64db7d8ac6e23ce7bc4e63bc"
-      }
-    ],
-    "last_connection": "8/15/2023, 1:28:42 PM"
-  },
-  {
-    "_id": "64db858b048c9554fcff0073",
-    "email": "salta@lalinda.com",
-    "password": "$2b$10$C3LngJE5k1H7qWwkfRyfsO0Ld9qWeOLjPGNnTjJ4WyPD.QN/7bA.i",
-    "first_name": "salta",
-    "last_name": "lalinda",
-    "age": 22,
-    "rol": "Premium",
-    "cart": "64db858a048c9554fcff0071",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64db858b048c9554fcff0074"
-      }
-    ],
-    "last_connection": "15/8/2023, 11:02:51"
-  },
-  {
-    "_id": "64db8e51e66b8e5b3a6590b7",
-    "email": "maria@maria.com",
-    "password": "$2b$10$0I1.jsyB3W1.PYG.C.ntNOd6/1IL0qMR3ZROtGXGf5gNX.QmjK/2W",
-    "first_name": "maria",
-    "last_name": "maria",
-    "age": 22,
-    "rol": "Admin",
-    "cart": "64db8e51e66b8e5b3a6590b5",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64db8e51e66b8e5b3a6590b8"
-      }
-    ],
-    "last_connection": "8/15/2023, 2:40:17 PM"
-  },
-  {
-    "_id": "64dd9911e09e2fb3d31aa329",
-    "email": "user@user.com",
-    "password": "$2b$10$rPCqtqJSf8UMOFr6Sh.R8u/gdJjon0pcv78KrEM6D66eK8mq6uJSe",
-    "first_name": "user",
-    "last_name": "user",
-    "age": 33,
-    "rol": "User",
-    "cart": "64dd9910e09e2fb3d31aa327",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64dd9911e09e2fb3d31aa32a"
-      }
-    ],
-    "last_connection": "8/17/2023, 3:50:41 AM"
-  },
-  {
-    "_id": "64dd9b9aa5f6598581ac2daa",
+    "_id": "64e3ee1f1ad743e08c1d9390",
     "email": "admin@admin.com",
-    "password": "$2b$10$rLE3byQjYYd0lMzQBR/DdeFXk6XmAF.jX7KdzDgSnT5C10UcOj3eC",
+    "password": "$2b$10$hJRGAFh4UtUz4tx1oVy83ei6NoL8gVMjfh3twuYgRsJ.iBLNo7tQy",
     "first_name": "admin",
     "last_name": "admin",
     "age": 33,
     "rol": "Admin",
-    "cart": "64dd9b9aa5f6598581ac2da8",
+    "cart": "64e3ee1f1ad743e08c1d938e",
     "documents": [
       {
         "name": "",
         "reference": "",
-        "_id": "64dd9b9aa5f6598581ac2dab"
+        "_id": "64e3ee1f1ad743e08c1d9391"
       }
     ],
-    "last_connection": "17/8/2023, 1:01:30"
+    "last_connection": "8/21/2023, 11:07:11 PM"
   },
   {
-    "_id": "64e25e53e734e24764efa7b2",
-    "email": "gabielangel10@gmail.com",
-    "password": "$2b$10$UT3eMTpJ9WNW/Xgs6QFv5OOaHGFPc5nPCVO5dCsSREfxMgBislD3a",
-    "first_name": "angel",
-    "last_name": "coronel",
-    "age": 29,
-    "rol": "User",
-    "cart": "64e25e52e734e24764efa7b0",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e25e53e734e24764efa7b3"
-      }
-    ],
-    "last_connection": "8/20/2023, 6:41:23 PM"
-  },
-  {
-    "_id": "64e37898f702bbc52097e51a",
-    "email": "gabrielangel10@gmail.com",
-    "password": "$2b$10$S1HOKIzaO4p5Td0kLirRjeVIPXpIa5JXHZM3/2qFUTGlwNa8zjTNu",
-    "first_name": "angel",
-    "last_name": "coronel",
-    "age": 29,
-    "rol": "User",
-    "cart": "64e37898f702bbc52097e518",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e37898f702bbc52097e51b"
-      }
-    ],
-    "last_connection": "8/21/2023, 2:45:44 PM"
-  },
-  {
-    "_id": "64e3a687bb50d992088ae296",
-    "email": "sarasa@sarasa.com",
-    "password": "$2b$10$N0SRmmWMxVtK6VbcAaq6xeEhwas5KR86oMSXX6Fj0ZLvBXWjfy.su",
-    "first_name": "sarasa",
-    "last_name": "sasa",
-    "age": 22,
-    "rol": "User",
-    "cart": "64e3a686bb50d992088ae294",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3a687bb50d992088ae297"
-      }
-    ],
-    "last_connection": "8/21/2023, 6:01:43 PM"
-  },
-  {
-    "_id": "64e3af6bc31a9263986c65b8",
-    "email": "h@g.com",
-    "password": "$2b$10$nEbnZ9.K5v6o4N/QEe1uG.AlKoKo0AVjjGy6YSljFI6xqjXk43GNa",
-    "first_name": "Horacio",
-    "last_name": "Gattari",
-    "age": 22,
-    "rol": "User",
-    "cart": "64e3af6bc31a9263986c65b6",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3af6bc31a9263986c65b9"
-      }
-    ],
-    "last_connection": "8/21/2023, 6:39:39 PM"
-  },
-  {
-    "_id": "64e3b732b714158952a056f2",
-    "email": "lax@lax.com",
-    "password": "$2b$10$DXb9yd.AbFBB4ATYwej8eu1xe/eSJUfsk3P6BjDXjUwEYjjnKFHfO",
-    "first_name": "lax",
-    "last_name": "lax",
-    "age": 11,
-    "rol": "Admin",
-    "cart": "64e3b732b714158952a056f0",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3b732b714158952a056f3"
-      }
-    ],
-    "last_connection": "21/8/2023, 16:12:50"
-  },
-  {
-    "_id": "64e3b7d10c039e3cdf18ceb6",
-    "email": "q@q.com",
-    "password": "$2b$10$ujEQEevwzSNVV.ayigV40ug6TE4gZNCZIZMoI/6MfqZclxLgsBnF.",
-    "first_name": "c",
-    "last_name": "c",
-    "age": 2,
-    "rol": "Premium",
-    "cart": "64e3b7d00c039e3cdf18ceb4",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3b7d10c039e3cdf18ceb7"
-      }
-    ],
-    "last_connection": "8/21/2023, 7:15:29 PM"
-  },
-  {
-    "_id": "64e3c0c448ad1d87c18b2e58",
-    "email": "nachito@gio.com",
-    "password": "$2b$10$R5.iiSG6y.4i9WLzhrrsNeFIyBBY9HppYCRR2Joxoz1bzOYC7hQGG",
-    "first_name": "nachito",
-    "last_name": "na",
-    "age": 33,
-    "rol": "User",
-    "cart": "64e3c0c348ad1d87c18b2e56",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3c0c448ad1d87c18b2e59"
-      }
-    ],
-    "last_connection": "21/8/2023, 16:53:40"
-  },
-  {
-    "_id": "64e3c0d948ad1d87c18b2e61",
-    "email": "f@f.com",
-    "password": "$2b$10$2XYiQtNpi.3u9DJe3t3SHunPtS5vP2KkeNcmS9TDdtyaSgev/yq2O",
-    "first_name": "asddd",
-    "last_name": "asddd",
-    "age": 22,
-    "rol": "Premium",
-    "cart": "64e3c0d848ad1d87c18b2e5f",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3c0d948ad1d87c18b2e62"
-      }
-    ],
-    "last_connection": "21/8/2023, 16:54:01"
-  },
-  {
-    "_id": "64e3c1de63e8f8b5f92eda0e",
-    "email": "r@r.com",
-    "password": "$2b$10$lK.J8VSQU8MJV/EUSGRcXe6kI9EQbBD8DjYVf2EpIRp4OmPAq2foS",
-    "first_name": "r",
-    "last_name": "r",
-    "age": 22,
-    "rol": "User",
-    "cart": "64e3c1de63e8f8b5f92eda0c",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3c1de63e8f8b5f92eda0f"
-      }
-    ],
-    "last_connection": "21/8/2023, 16:58:22"
-  },
-  {
-    "_id": "64e3c1f763e8f8b5f92eda17",
-    "email": "x@x.com",
-    "password": "$2b$10$uvz2GzFGv/J6zgyic.skuuTKXLpWpQu634MkRKhXsOuTlaNPXNyB6",
-    "first_name": "x",
-    "last_name": "x",
-    "age": 22,
-    "rol": "Admin",
-    "cart": "64e3c1f763e8f8b5f92eda15",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3c1f763e8f8b5f92eda18"
-      }
-    ],
-    "last_connection": "21/8/2023, 16:58:47"
-  },
-  {
-    "_id": "64e3c29f3c4d7990972ca5df",
-    "email": "a@s.com",
-    "password": "$2b$10$kpfDyHB40ci8WnvluBTfKuP5q2mSeAfRlqjoRSB1z6lG9UKsTU30G",
-    "first_name": "a",
-    "last_name": "s",
-    "age": 22,
-    "rol": "Premium",
-    "cart": "64e3c29f3c4d7990972ca5dd",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3c29f3c4d7990972ca5e0"
-      }
-    ],
-    "last_connection": "21/8/2023, 17:01:35"
-  },
-  {
-    "_id": "64e3c45f22a640bd0084e6ca",
+    "_id": "64e3f1d11ad743e08c1d93f7",
     "email": "lea.mg90@gmail.com",
-    "password": "$2b$10$xnu3BUIuQBLF2au/dCc0eOijpD9n0ZTByT3OggCUvrTrCc/3EqNS2",
+    "password": "$2b$10$cCvHmCMDnrddqBbxYDbjT.p.FVZOGZS5QxqnB0YmWna05J9sHpeta",
     "first_name": "matias",
     "last_name": "gattari",
     "age": 33,
     "rol": "Admin",
-    "cart": "64e3c45e22a640bd0084e6c8",
+    "cart": "64e3f1d01ad743e08c1d93f5",
     "documents": [
       {
         "name": "",
         "reference": "",
-        "_id": "64e3c45f22a640bd0084e6cb"
+        "_id": "64e3f1d11ad743e08c1d93f8"
       }
     ],
-    "last_connection": "21/8/2023, 17:09:03"
+    "last_connection": "8/21/2023, 11:22:57 PM"
   },
   {
-    "_id": "64e3cfe9830ef9ff75c4f679",
+    "_id": "64e3f2641ad743e08c1d9424",
     "email": "premium@premium.com",
-    "password": "$2b$10$ig0OPPOSexO8h5seYomhl.RMJ8sp7crOW3odylLrLsYLyC3gYE19m",
+    "password": "$2b$10$wlk7fKfkIzDYgxX4h8DQYuPo42DqCJuwur8RXTNCoLhR6vwQ2J3Q6",
     "first_name": "premium",
     "last_name": "premium",
     "age": 33,
     "rol": "Premium",
-    "cart": "64e3cfe9830ef9ff75c4f677",
+    "cart": "64e3f2641ad743e08c1d9422",
     "documents": [
       {
         "name": "",
         "reference": "",
-        "_id": "64e3cfe9830ef9ff75c4f67a"
+        "_id": "64e3f2641ad743e08c1d9425"
       }
     ],
-    "last_connection": "21/8/2023, 17:58:17"
-  },
-  {
-    "_id": "64e3e900e72179af784ccd96",
-    "email": "j@j.com",
-    "password": "$2b$10$tvvmJ664pCAtqxpXvGw7DOtHJSahCSf1RrTjC3gNhL4ORHgw8Sk/i",
-    "first_name": "j",
-    "last_name": "j",
-    "age": 33,
-    "rol": "Admin",
-    "cart": "64e3e900e72179af784ccd94",
-    "documents": [
-      {
-        "name": "",
-        "reference": "",
-        "_id": "64e3e900e72179af784ccd97"
-      }
-    ],
-    "last_connection": "21/8/2023, 19:45:20"
+    "last_connection": "8/21/2023, 11:25:24 PM"
   }
 ]

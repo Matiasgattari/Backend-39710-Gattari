@@ -4,14 +4,19 @@
   <h2>Ruta del archivo:</h2>
   <h3>{{ruta}}</h3>
   
-  <button onclick='ver("{{ruta}}")'>Ver</button>
-  <button onclick="volver()">Volver a carga de archivos</button>
+  <button onclick='ver("{{ruta}}")'>Ver archivo</button>
+  <button onclick="volver()">Volver a carga de archivos imagen o json</button><br>
+  <button onclick="cargar()">Cargar un producto nuevo</button>
 
 
 <script> 
     const url = window.location.origin
 function ver(ruta){
  const url2 = url + ruta 
+    window.location.href = url2
+}
+function cargar(){
+ const url2 = url + '/api/products/admin'
     window.location.href = url2
 }
 function volver(){
